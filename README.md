@@ -18,6 +18,7 @@ Link:
 - [Criando um arquivo](#criandoarquivo)
 - [Documentação e estrutura básica do HTML](#documentacao)
 - [Criando o corpo da página](#corpo)
+- [Quirks Mode e Live Server](#quirks)
 
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
@@ -123,6 +124,34 @@ O código até agora:
 ![](tela01.png)
 
 Essas são as primeiras etapas na construção da nossa página. Vamos continuar aprendendo e adicionando mais elementos conforme avançamos no curso! 😊
+
+## <a name="quirks"> Quirks Mode e Live Server </a>
+
+No curso, estamos trabalhando em uma página web aprimorada com vários elementos. Vamos agora experimentar um pouco com o código.
+
+Ao seguir a documentação, surge uma dúvida: o que acontece se removermos uma propriedade específica? Vamos testar! Por exemplo, podemos retirar a linha "<!DOCTYPE html>".
+
+````
+<html>
+    <head>
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <h1>Isso é um título</h1>
+        <p>Isso é um parágrafo</p>
+        <img src="html.png" alt="Logo do HTML 5">
+    </body>
+</html>
+````
+Ao visualizar no navegador, percebemos que a aparência não mudou. No entanto, ao inspecionar o código-fonte, notamos uma mensagem indicando que a página está em "Modo Quirks". Isso ocorre porque o "<!DOCTYPE html>" é crucial para informar ao navegador que estamos usando HTML5.
+
+Para corrigir isso, basta adicionar novamente o "<!DOCTYPE html>".
+
+Outra melhoria que podemos fazer é tornar o processo de visualização mais dinâmico. Vamos adicionar a extensão "Live Server" no VS Code. Ela permitirá atualizações automáticas ao salvarmos o arquivo. Após instalar a extensão, basta clicar em "Go Live" na barra inferior do VS Code.
+
+Agora, ao fazer alterações no código e salvar, a página é automaticamente atualizada no navegador. Isso proporciona uma experiência mais fluida e facilita o desenvolvimento.
+
+Experimentem explorar o código e fazer pequenas modificações para entender melhor o impacto.
 
 
 
