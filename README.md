@@ -102,12 +102,13 @@ Documentação e comunidades são aliadas no crescimento profissional. Aproveite
 
 Começamos a construção de uma página web básica. Inicialmente, adicionamos a meta informação title, visível na aba do navegador. A seguir, nos concentramos na estrutura do corpo da página.
 
-Retornando à documentação do HTML, utilizamos as tags essenciais para definir a estrutura do HTML5. A meta informação title foi seguida pela abertura e fechamento da tag <body>, que representa o corpo visível da página.
+Retornando à documentação do HTML, utilizamos as tags essenciais para definir a estrutura do HTML5. A meta informação title foi seguida pela abertura e fechamento da tag <code><body></code>, que representa o corpo visível da página.
 
-Dentro do corpo, adicionamos um título <h1> com o texto "Isso é um título" e um parágrafo <p> com o texto "Isso é um parágrafo". Para dar mais contexto à página, inserimos uma imagem <img> com a tag de atributo src apontando para a imagem "html.png". Além disso, adicionamos a propriedade alt para fornecer um texto alternativo, melhorando a acessibilidade.
+Dentro do corpo, adicionamos um título <code><h1></code> com o texto "Isso é um título" e um parágrafo <code><p></code> com o texto "Isso é um parágrafo". Para dar mais contexto à página, inserimos uma imagem <code><img></code> com a tag de atributo src apontando para a imagem "html.png". Além disso, adicionamos a propriedade alt para fornecer um texto alternativo, melhorando a acessibilidade.
 
 O código até agora:
-<coded><!DOCTYPE html>
+````
+<!DOCTYPE html>
 <html>
     <head>
         <title>Portfolio</title>
@@ -117,7 +118,8 @@ O código até agora:
         <p>Isso é um parágrafo</p>
         <img src="html.png" alt="Logo do HTML 5">
     </body>
-</html></coded>
+</html>
+````
 
 Essas são as primeiras etapas na construção da nossa página. Vamos continuar aprendendo e adicionando mais elementos conforme avançamos no curso! 😊
 
