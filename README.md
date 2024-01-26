@@ -209,7 +209,15 @@ Agora, estou pronto para começar a escrever e aplicar o CSS ao meu projeto, per
 
 ## <a name="criandocss"> Criando o CSS </a>
 
+Estou aprendendo a estilizar minha página web, começando com o arquivo CSS. Inicialmente, defini o nome do arquivo como style.css, conforme sugestão dos instrutores do curso. Decidi começar pela cor de fundo e cor do texto da página.
 
+Ao escrever o código no arquivo style.css, utilizei a tag body para abranger a página inteira. Defini a cor de fundo como preta (black) e a cor do texto como branca (white). No entanto, ao verificar no navegador, percebi que as alterações não estavam sendo aplicadas.
+
+Descobri que precisava linkar o arquivo CSS ao HTML. Fiz isso adicionando a tag < link > no < head > do meu arquivo index.html, indicando a relação como "stylesheet" e o arquivo CSS como "styles.css".
+
+Após essa correção, consegui visualizar a cor de fundo preta e o texto em branco na página. No entanto, notei que os links de "Instagram" e "Github" ainda estavam em azul e sublinhados. Essa questão será abordada em etapas posteriores do curso.
+
+![](tela04.png)
 
 
 
