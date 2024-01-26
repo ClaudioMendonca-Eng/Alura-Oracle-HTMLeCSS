@@ -20,7 +20,9 @@ Link:
 - [Criando o corpo da página](#corpo)
 - [Quirks Mode e Live Server](#quirks)
 - [Projeto no Figma](#projetofigma)
-
+- [Desenvolvendo o HTML](#desenvolvendohtml)
+- [Como funciona o CSS](#comofuncionacss)
+- [Criando o CSS](#criandocss)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
 - [Licença](#licença)
@@ -172,6 +174,44 @@ O próximo passo é entender como trabalhar a partir das informações fornecida
 Nosso desafio agora é transformar essas informações em páginas web, codificando o HTML das telas já construídas. Ao analisar a estrutura no Figma, identificamos a disposição do título, parágrafo, botões e imagem da desenvolvedora. Vamos utilizar HTML para criar a estrutura dos elementos e CSS para aplicar estilos, como cores, formatos e posicionamento.
 
 Teremos a liberdade de personalizar o conteúdo textual, cores e outras propriedades conforme necessário. Nosso próximo passo será começar a trabalhar com o HTML para transformar o design visualizado no Figma em uma página web funcional.
+
+## <a name="desenvolvendohtml"> Desenvolvendo o HTML </a>
+
+Estou seguindo o curso de desenvolvimento web e atualmente estou trabalhando na estruturação da minha página utilizando HTML. No momento, estou focado em organizar o conteúdo dentro da tag < main > do meu arquivo index.html.
+
+Primeiramente, identifiquei os elementos principais da minha página a partir do design fornecido no Figma. A Rafaella e o Guilherme, que estão conduzindo o curso, sugeriram começar a trabalhar da esquerda para a direita e de cima para baixo. Então, iniciei com o título, usando a tag < h1 >, que representa um cabeçalho. Copiei o texto do Figma e colei dentro dessa tag.
+
+Em seguida, destaquei uma parte do título utilizando a tag < strong >, indicando ao navegador que essa parte deve ser enfatizada. Isso não alterou visualmente, mas é uma marcação semântica importante.
+
+Depois, adicionei um parágrafo utilizando a tag < p > e copiei o texto correspondente do Figma para dentro dessa tag. Avancei adicionando dois links, representados pela tag < a >, que servirão como botões para Instagram e GitHub. Por enquanto, esses links não são clicáveis visualmente.
+
+Ao perceber isso, ajustei os links adicionando a propriedade href com os URLs correspondentes. Agora, ao clicar no link do Instagram, por exemplo, será redirecionado para o perfil da Rafaella.
+
+Por fim, inseri uma imagem usando a tag < img >, baixada diretamente do Figma e salva na mesma pasta do projeto. A propriedade alt foi utilizada para descrever a imagem de maneira acessível.
+
+No entanto, apesar de ter estruturado os elementos, ainda falta estilizar a página para que ela se assemelhe ao design original no Figma. Esse será o próximo passo do curso.
+
+![](tela03.png)
+
+## <a name="comofuncionacss"> Como funciona o CSS </a>
+
+Estou aprendendo a estilizar minha página web após ter estruturado o HTML. O objetivo agora é tornar a página visualmente atraente e semelhante ao design original no Figma. Guilherme e Rafaella, os instrutores do curso, enfatizaram a importância do CSS (Cascading Style Sheets) para esse propósito.
+
+O CSS controla como os elementos HTML devem ser exibidos na tela, incluindo cores, tamanhos, formas e posicionamentos. Ao consultar a documentação no [W3Schools](https://www.w3schools.com/css/default.asp), aprendi que o CSS economiza trabalho, pois pode ser aplicado a várias páginas web de uma vez, e é armazenado em arquivos .css separados.
+
+Explorando uma demonstração no W3Schools, vi como diferentes estilos podem ser aplicados a um mesmo HTML usando diferentes arquivos .css. Isso me deu uma compreensão prática de como escrever em CSS.
+
+Assim como no HTML, existem palavras-chave específicas no CSS para realizar ações. Focarei nas propriedades principais para começar. A documentação destaca a importância do CSS ao resolver o problema de misturar marcação e estilização no HTML. O CSS foi introduzido para isolar essas responsabilidades, facilitando a manutenção e o desenvolvimento.
+
+Ao usar um arquivo de folha de estilo externo (.css), posso alterar a aparência de um site inteiro modificando apenas esse arquivo. Essa separação entre o HTML e o CSS simplifica o processo e melhora a organização do código.
+
+Agora, estou pronto para começar a escrever e aplicar o CSS ao meu projeto, personalizando cores, tamanhos e formatos para obter a aparência desejada.
+
+## <a name="criandocss"> Criando o CSS </a>
+
+
+
+
 
 
 
