@@ -120,6 +120,7 @@ O código até agora:
     </body>
 </html>
 ````
+![](img/tela01.png)
 
 Essas são as primeiras etapas na construção da nossa página. Vamos continuar aprendendo e adicionando mais elementos conforme avançamos no curso! 😊
 
