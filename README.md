@@ -19,6 +19,7 @@ Link:
 - [Documentação e estrutura básica do HTML](#documentacao)
 - [Criando o corpo da página](#corpo)
 - [Quirks Mode e Live Server](#quirks)
+- [Projeto no Figma](#projetofigma)
 
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
@@ -129,7 +130,7 @@ Essas são as primeiras etapas na construção da nossa página. Vamos continuar
 
 No curso, estamos trabalhando em uma página web aprimorada com vários elementos. Vamos agora experimentar um pouco com o código.
 
-Ao seguir a documentação, surge uma dúvida: o que acontece se removermos uma propriedade específica? Vamos testar! Por exemplo, podemos retirar a linha "<!DOCTYPE html>".
+Ao seguir a documentação, surge uma dúvida: o que acontece se removermos uma propriedade específica? Vamos testar! Por exemplo, podemos retirar a linha "<! DOCTYPE html>".
 
 ````
 <html>
@@ -143,15 +144,34 @@ Ao seguir a documentação, surge uma dúvida: o que acontece se removermos uma 
     </body>
 </html>
 ````
-Ao visualizar no navegador, percebemos que a aparência não mudou. No entanto, ao inspecionar o código-fonte, notamos uma mensagem indicando que a página está em "Modo Quirks". Isso ocorre porque o "<!DOCTYPE html>" é crucial para informar ao navegador que estamos usando HTML5.
+Ao visualizar no navegador, percebemos que a aparência não mudou. No entanto, ao inspecionar o código-fonte, notamos uma mensagem indicando que a página está em "Modo Quirks". Isso ocorre porque o "! DOCTYPE html" é crucial para informar ao navegador que estamos usando HTML5.
 
-Para corrigir isso, basta adicionar novamente o "<!DOCTYPE html>".
+Para corrigir isso, basta adicionar novamente o "! DOCTYPE html".
 
 Outra melhoria que podemos fazer é tornar o processo de visualização mais dinâmico. Vamos adicionar a extensão "Live Server" no VS Code. Ela permitirá atualizações automáticas ao salvarmos o arquivo. Após instalar a extensão, basta clicar em "Go Live" na barra inferior do VS Code.
 
 Agora, ao fazer alterações no código e salvar, a página é automaticamente atualizada no navegador. Isso proporciona uma experiência mais fluida e facilita o desenvolvimento.
 
 Experimentem explorar o código e fazer pequenas modificações para entender melhor o impacto.
+
+## <a name="projetofigma"> Projeto no Figma </a>
+
+Estamos prontos para começar efetivamente nosso projeto de desenvolvimento web. Até agora, passamos por testes, aprendemos a escrever títulos e configuramos o VSCode para nossa programação. Como desenvolvedores, surge a questão: devemos criar uma página de portfólio do zero, com nossos estilos exclusivos, ou basear-nos em um modelo pronto?
+
+No nosso caso, somos o segundo tipo de profissional, encarregados de codificar uma página web já desenhada. Nossa designer, Isa, da Escola de Front-End da Alura, criou o layout que estamos usando. Ela conduziu uma pesquisa extensiva para garantir uma experiência do usuário (UX/UI) eficaz.
+
+Isa utilizou o Figma, uma ferramenta popular para designers, e compartilhou o projeto conosco. Agora, temos acesso a todas as informações necessárias para codificar as páginas neste curso. A tela inicial do projeto no Figma apresenta dois blocos de conteúdo, lado a lado, com detalhes específicos sobre cores, texto, botões e imagens.
+
+![](tela02.png)
+
+Link: [Projeto no Figma](https://www.figma.com/file/lCj0eDZEm5n1M4pPuRHKwN/Portfolio---Curso-1-(Copy)-(Community)?type=design&node-id=0-1&mode=design&t=qDXdzjGz1Q6nysOz-0)
+
+
+O próximo passo é entender como trabalhar a partir das informações fornecidas pelo Figma. Ao clicarmos nos elementos, podemos acessar detalhes importantes na aba "Design", como largura, altura, formato e cores. Além disso, a aba "Inspect" nos fornece valores adicionais para as propriedades, incluindo código CSS.
+
+Nosso desafio agora é transformar essas informações em páginas web, codificando o HTML das telas já construídas. Ao analisar a estrutura no Figma, identificamos a disposição do título, parágrafo, botões e imagem da desenvolvedora. Vamos utilizar HTML para criar a estrutura dos elementos e CSS para aplicar estilos, como cores, formatos e posicionamento.
+
+Teremos a liberdade de personalizar o conteúdo textual, cores e outras propriedades conforme necessário. Nosso próximo passo será começar a trabalhar com o HTML para transformar o design visualizado no Figma em uma página web funcional.
 
 
 
