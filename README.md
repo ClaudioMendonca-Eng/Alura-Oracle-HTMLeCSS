@@ -23,6 +23,7 @@ Link:
 - [Desenvolvendo o HTML](#desenvolvendohtml)
 - [Como funciona o CSS](#comofuncionacss)
 - [Criando o CSS](#criandocss)
+- [Cores no CSS](#corescss)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
 - [Licença](#licença)
@@ -219,7 +220,16 @@ Após essa correção, consegui visualizar a cor de fundo preta e o texto em bra
 
 ![](tela04.png)
 
+## <a name="corescss"> Cores no CSS </a>
 
+Estou aprendendo a manipular cores em minha página web. Após estilizar a cor de fundo e do texto, percebi que a cor branca que usei não era a mesma do Figma. O Figma mostrou dois valores: #22D4FD para azul claro e #F6F6F6 para o branco. No entanto, ao aplicar #F6F6F6, o texto não ficou visível.
 
+Descobri que para representar cores no CSS, é necessário adicionar um sinal de cerquilha (#) antes do valor da cor. Após essa correção, consegui visualizar o texto em branco sobre o fundo preto.
 
+Aprendi que existem diferentes formas de representar cores no CSS, seja por palavras-chave como black e white, ou usando a Notação Hexadecimal RGB. Essa notação usa números de 0 a 9 e letras de A a F para representar cores. Por exemplo, o preto é #000000, e o branco é #ffffff.
 
+Experimentei escolher cores usando ambas as formas: "purple" por palavra-chave e "#00ffff" pelo RGB. Embora o resultado não tenha sido ruim, percebi que as escolhas de cores podem ser aprimoradas.
+
+Para isso, pesquisei sobre a "roda de cores Adobe" e explorei o [Adobe Colors]{https://color.adobe.com/pt/create/color-wheel}, uma ferramenta que gera paletas de cores harmônicas. Entendi a importância de escolher cores de forma estudada e harmônica, e foi sugerido deixar um desafio para pesquisar e escolher cores interessantes.
+
+No código, substituí a cor black por #000000 em background-color, mantendo o texto em #F6F6F6. Ao salvar e rodar a aplicação, as cores foram aplicadas sem problemas.
