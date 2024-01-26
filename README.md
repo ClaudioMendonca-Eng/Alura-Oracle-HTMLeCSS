@@ -17,6 +17,7 @@ Link:
 - [Apresentação](#apresentacao)
 - [Criando um arquivo](#criandoarquivo)
 - [Documentação e estrutura básica do HTML](#documentacao)
+- [Criando o corpo da página](#corpo)
 
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
@@ -65,6 +66,60 @@ Utilizamos um exemplo prático no Docs do Google, marcando um título, um parág
 Exploramos a estrutura básica do HTML, adicionando a <html> como elemento raiz e a <head> para conter metainformações. Dentro da <head>, utilizamos a <title> para dar um título à página, como "Portfolio", por exemplo.
 
 Ao salvar e abrir o arquivo no navegador, pudemos ver o título refletido na aba do navegador. O próximo passo é abordar o conteúdo real da página. 
+
+**Documentação: Guia Essencial para Desenvolvedores**
+
+**O que é Documentação?**
+
+A documentação é essencial para entender linguagens, ferramentas e bibliotecas na programação.
+
+**Importância**
+
+Guia valioso no aprendizado e desenvolvimento de aplicações.
+
+**Quando Utilizar?**
+
+- Compreender métodos
+- Conhecer comandos e recursos
+- Lembrar funcionalidades
+
+**Outras Formas de Ajuda**
+
+- **Comunidades:**
+  - [Stack Overflow](https://stackoverflow.com/): Ampla comunidade de ajuda em programação.
+
+**Recursos Recomendados**
+
+- **Documentação HTML:**
+  - [w3schools](https://www.w3schools.com/html/): Excelente fonte para aprender HTML.
+
+- **Comunidades Front-End:**
+  - [Artigo na Alura](link_artigo_comunidades_frontend): Explore comunidades Front-End.
+
+Documentação e comunidades são aliadas no crescimento profissional. Aproveite esses recursos para aprimorar suas habilidades e conhecimentos.
+
+## <a name="corpo"> Criando o corpo da página </a>
+
+Começamos a construção de uma página web básica. Inicialmente, adicionamos a meta informação title, visível na aba do navegador. A seguir, nos concentramos na estrutura do corpo da página.
+
+Retornando à documentação do HTML, utilizamos as tags essenciais para definir a estrutura do HTML5. A meta informação title foi seguida pela abertura e fechamento da tag <body>, que representa o corpo visível da página.
+
+Dentro do corpo, adicionamos um título <h1> com o texto "Isso é um título" e um parágrafo <p> com o texto "Isso é um parágrafo". Para dar mais contexto à página, inserimos uma imagem <img> com a tag de atributo src apontando para a imagem "html.png". Além disso, adicionamos a propriedade alt para fornecer um texto alternativo, melhorando a acessibilidade.
+
+O código até agora:
+<coded><!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <h1>Isso é um título</h1>
+        <p>Isso é um parágrafo</p>
+        <img src="html.png" alt="Logo do HTML 5">
+    </body>
+</html></coded>
+
+Essas são as primeiras etapas na construção da nossa página. Vamos continuar aprendendo e adicionando mais elementos conforme avançamos no curso! 😊
 
 
 
