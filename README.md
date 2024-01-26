@@ -230,6 +230,32 @@ Aprendi que existem diferentes formas de representar cores no CSS, seja por pala
 
 Experimentei escolher cores usando ambas as formas: "purple" por palavra-chave e "#00ffff" pelo RGB. Embora o resultado não tenha sido ruim, percebi que as escolhas de cores podem ser aprimoradas.
 
-Para isso, pesquisei sobre a "roda de cores Adobe" e explorei o [Adobe Colors]{https://color.adobe.com/pt/create/color-wheel}, uma ferramenta que gera paletas de cores harmônicas. Entendi a importância de escolher cores de forma estudada e harmônica, e foi sugerido deixar um desafio para pesquisar e escolher cores interessantes.
+Para isso, pesquisei sobre a "roda de cores Adobe" e explorei o [Adobe Colors](https://color.adobe.com/pt/create/color-wheel), uma ferramenta que gera paletas de cores harmônicas. Entendi a importância de escolher cores de forma estudada e harmônica, e foi sugerido deixar um desafio para pesquisar e escolher cores interessantes.
 
 No código, substituí a cor black por #000000 em background-color, mantendo o texto em #F6F6F6. Ao salvar e rodar a aplicação, as cores foram aplicadas sem problemas.
+
+
+- Escolha da Paleta de Cores para o Projeto
+
+Chegou a hora de dar vida ao seu projeto escolhendo uma paleta de cores. Uma boa seleção de cores é crucial para proporcionar uma excelente experiência ao usuário e reforçar a identidade da sua página. Para ajudar nesse desafio, apresentamos algumas opções:
+
+ - [Coolors](https://coolors.co/)
+O Coolors possui uma interface clara e intuitiva. Com a barra de espaço, você pode criar várias combinações. Destaque para a opção de travar uma cor específica, permitindo a elaboração de combinações em torno dela.
+
+![](coolors.gif)
+
+ - [Adobe Color](https://color.adobe.com/)
+O Adobe Color oferece uma "Color Wheel" ajustável para obter harmonias variadas. Aplica diversas regras de harmonia de cores, como análogo, monocromático, tríade, complementar, quadrado, composto, entre outros.
+
+![](adobecolor.gif)
+
+ - [Color Hunt](https://colorhunt.co/)
+O Color Hunt dispõe de diversas paletas elaboradas. Encontre combinações por palavras-chave, como pastel, vintage, neon, ou crie a sua própria paleta.
+
+![](colorhunt.gif)
+
+ - [Color Tool - Material Design](https://material.io/resources/color/)
+O Color Tool é excelente para criar, compartilhar e aplicar paletas de cores na interface do usuário. Também permite medir o nível de acessibilidade de combinações de cores.
+
+![](colortool.gif)
+```
