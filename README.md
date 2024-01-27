@@ -31,6 +31,7 @@ Link:
 - [Flexbox](#flexbox)
 - [Alinhando o conteúdo](#alinhandoconteudo)
 - [Estilizando o texto](#estilizandotexto)
+- [Importando fontes](#importandofontes)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
 - [Licença](#licença)
@@ -360,6 +361,19 @@ Além disso, identifiquei que o subtítulo (parágrafo) também precisava de aju
 Ao aplicar essas mudanças, consegui alinhar o tamanho dos elementos da seção de texto conforme esperado, aproximando minha aplicação do design desejado no Figma.
 
 ![](img/tela09.png)
+
+## <a name="importandofontes"> Importando fontes </a>
+
+Ao revisar meu projeto, percebi que a aparência das fontes no Figma diferia da minha página. Para corrigir isso, decidi importar as fontes do Figma para o projeto. Utilizei o Google Fonts para acessar as fontes desejadas, Krona One para o título e Montserrat para o parágrafo.
+
+Ao acessar o Google Fonts, pesquisei e selecionei as fontes desejadas. Em seguida, copiei o código de importação fornecido pelo Google Fonts, que incluía as fontes Krona One e Montserrat.
+
+No arquivo CSS, substituí o trecho de importação anterior pelo novo código. Em seguida, apliquei as fontes aos elementos HTML desejados. No caso do título, adicionei a propriedade font-family para Krona One, e para o parágrafo, adicionei a propriedade font-family para Montserrat.
+
+Ao salvar e visualizar a página no navegador, confirmei que as fontes estavam agora alinhadas com o design do Figma.
+
+![](img/tela10.png)
+
 
 
 
