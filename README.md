@@ -39,6 +39,8 @@ Link:
     - [Recurso Gap](#recursogap)
 - [HTML e CSS: cabeçalho, footer e variáveis CSS](#htmlcss03)
     - [Vamos melhor o projeto](#melhorandoprojeto)
+    - [Figma do projeto atualizado](#figmaatualizado)
+    - [ Posicionando os links](#posicionandolinks)
 - [HTML e CSS: trabalhando com responsividade e publicação de projetos](#htmlcss04)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
@@ -429,5 +431,24 @@ Ao testar no navegador, observei que os blocos de texto e a imagem se posicionar
 Durante o curso, recebemos a tarefa de aprimorar um projeto existente, incorporando novas funcionalidades à interface. Uma das principais metas é a implementação de uma nova tela, refinando ainda mais o projeto. Uma das melhorias incluirá a exibição de ícones ao lado dos links, proporcionando uma experiência visual aprimorada.
 
 Um aspecto crucial do projeto será a implementação da navegação entre as telas, utilizando um cabeçalho que permitirá a transição suave de uma tela para outra. Além disso, exploraremos detalhes relacionados ao código, como a capacidade de alterar as cores do projeto inteiro a partir de um único local no código. Essa abordagem eficiente facilitará a personalização e manutenção do visual do projeto.
+
+## <a name="figmaatualizado"> Figma do projeto atualizado </a>
+
+Estou enfrentando um novo desafio em meu curso, onde estamos focando na atualização de uma aplicação. No mundo real, é comum desenvolver uma tela e, posteriormente, precisar atualizá-la para incluir novas funcionalidades. Isso acontece frequentemente em sistemas de software, páginas web e aplicações.
+
+Durante o curso, meu instrutor Guilherme explicou que, embora não sejamos uma empresa de e-commerce, nosso projeto precisa passar por uma atualização, resultando em uma nova tela. Utilizamos o Figma para visualizar a versão atualizada, que apresenta um fundo preto e dois textos em negrito na cor ciano ("Home" e "Sobre mim") na parte superior.
+
+A tela possui dois blocos de conteúdo centralizados, com o bloco esquerdo contendo um título em branco seguido de um parágrafo na cor branca, apresentando informações sobre Claudio Mendonça. Abaixo, há um subtítulo em negrito, seguido por três botões pretos com ícones no interior. O bloco direito exibe uma fotografia colorida minha Claudio Mendonça com um destaque ciano ao redor, além de uma barra inferior na cor ciano com o texto "Desenvolvido por Claudio Mendonça".
+
+Durante a discussão com Rafaella, eles mencionaram que os botões e o subtítulo "Acesse minhas redes" agora têm apenas uma borda ciano, e há ícones nos botões. Além disso, os menus "Home" e "Sobre mim" foram adicionados na parte superior.
+
+No decorrer do curso, também foi introduzida uma nova página, acessada pelo menu "Sobre mim". Essa tela mantém o cabeçalho e o rodapé semelhantes, mas o conteúdo central difere. No bloco esquerdo, há um título "Sobre mim" e dois parágrafos de texto "Lorem ipsum". O bloco direito exibe novamente a fotografia de Claudio Mendonça, com uma barra inferior ciano contendo o texto "Desenvolvido por Claudio Mendonça".
+
+Durante a análise comparativa das duas páginas, Guilherme e Rafaella destacaram que os estilos são semelhantes, mas as disposições e tamanhos de texto variam. Eles discutiram a possível aplicação de Flexbox na horizontal ou vertical para os blocos de biografia, ressaltando que esse tipo de decisão é comum no desenvolvimento web.
+
+A próxima etapa do curso envolverá a implementação dessa nova atualização em nosso projeto.
+
+![](img/tela14.png)
+
 
 
