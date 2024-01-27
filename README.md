@@ -30,6 +30,7 @@ Link:
 - [Height e box-sizing](#heightboxsizing)
 - [Flexbox](#flexbox)
 - [Alinhando o conteúdo](#alinhandoconteudo)
+- [Estilizando o texto](#estilizandotexto)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
 - [Licença](#licença)
@@ -347,6 +348,18 @@ Ao aplicar display: flex ao contêiner principal, os elementos foram dispostos e
 Entretanto, notei que os elementos estavam colados nos cantos da tela. Para melhorar isso, adicionei uma margem ao contêiner principal usando a propriedade margin. Ajustei o valor da margem para 10%, o que resultou em uma aparência mais equilibrada entre os elementos e uma maior semelhança com o design no Figma.
 
 ![](img/tela08.png)
+
+## <a name="estilizandotexto"> Estilizando o texto </a>
+
+Ao analisar minha aplicação, percebi que a seção de texto não estava conforme o esperado em termos de tamanho. Decidi ajustar isso, adicionando uma classe chamada "apresentacao__conteudo" à minha tag <section> no HTML. Em seguida, no arquivo CSS, defini uma largura específica para essa classe, utilizando informações do Figma.
+
+Ao observar a largura da seção, notei que o tamanho do título também precisava ser ajustado. Criei uma nova classe chamada "apresentacao__conteudo__titulo" e defini o tamanho da fonte para 36 pixels, conforme o Figma.
+
+Além disso, identifiquei que o subtítulo (parágrafo) também precisava de ajustes. Criei uma classe chamada "apresentacao__conteudo__texto" e defini o tamanho da fonte para 24 pixels, conforme as informações do Figma.
+
+Ao aplicar essas mudanças, consegui alinhar o tamanho dos elementos da seção de texto conforme esperado, aproximando minha aplicação do design desejado no Figma.
+
+![](img/tela09.png)
 
 
 
