@@ -15,26 +15,31 @@ Link:
 
 - [Instrutores](#instrutor)
 - [Apresentação](#apresentacao)
-- [Criando um arquivo](#criandoarquivo)
-- [Documentação e estrutura básica do HTML](#documentacao)
-- [Criando o corpo da página](#corpo)
-- [Quirks Mode e Live Server](#quirks)
-- [Projeto no Figma](#projetofigma)
-- [Desenvolvendo o HTML](#desenvolvendohtml)
-- [Como funciona o CSS](#comofuncionacss)
-- [Criando o CSS](#criandocss)
-- [Cores no CSS](#corescss)
-- [Destacando o texto](#destacandotexto)
-- [Classes no CSS](#classescss)
-- [Box Model](#boxmodel)
-- [Height e box-sizing](#heightboxsizing)
-- [Flexbox](#flexbox)
-- [Alinhando o conteúdo](#alinhandoconteudo)
-- [Estilizando o texto](#estilizandotexto)
-- [Importando fontes](#importandofontes)
-- [Posicionando os botões](#posicionandobotao)
-- [Estilizando os botões](#estilizandobotao)
-- [Recurso Gap](#recursogap)
+- [HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags](#htmlcss01)
+    - [Criando um arquivo](#criandoarquivo)
+    - [Documentação e estrutura básica do HTML](#documentacao)
+    - [Criando o corpo da página](#corpo)
+    - [Quirks Mode e Live Server](#quirks)
+    - [Projeto no Figma](#projetofigma)
+    - [Desenvolvendo o HTML](#desenvolvendohtml)
+    - [Como funciona o CSS](#comofuncionacss)
+    - [Criando o CSS](#criandocss)
+    - [Cores no CSS](#corescss)
+    - [Destacando o texto](#destacandotexto)
+- [HTML e CSS: Classes, posicionamento e Flexbox](#htmlcss02)
+    - [Classes no CSS](#classescss)
+    - [Box Model](#boxmodel)
+    - [Height e box-sizing](#heightboxsizing)
+    - [Flexbox](#flexbox)
+    - [Alinhando o conteúdo](#alinhandoconteudo)
+    - [Estilizando o texto](#estilizandotexto)
+    - [Importando fontes](#importandofontes)
+    - [Posicionando os botões](#posicionandobotao)
+    - [Estilizando os botões](#estilizandobotao)
+    - [Recurso Gap](#recursogap)
+- [HTML e CSS: cabeçalho, footer e variáveis CSS](#htmlcss03)
+    - [Vamos melhor o projeto](#melhorandoprojeto)
+- [HTML e CSS: trabalhando com responsividade e publicação de projetos](#htmlcss04)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
 - [Licença](#licença)
@@ -58,6 +63,8 @@ No curso, estamos explorando desde o básico, aprendendo a utilizar páginas HTM
 Os instrutores, Gui Lima e Rafa Ballerini, estão nos guiando nesse processo de forma didática e acessível. Estamos desvendando o que é HTML e CSS, e como essas linguagens podem ser transformadas em uma página web.
 
 Então, se você está começando do zero assim como eu, venha se juntar a nós nessa jornada de aprendizado! Estamos ansiosos para explorar juntos o fascinante mundo do desenvolvimento web.
+
+## <a name="htmlcss01"> HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags </a>
 
 ## <a name="criandoarquivo"> Criando um arquivo </a>
 
@@ -282,6 +289,8 @@ Ao discutir com meu colega de curso, compreendi que, para futuros desenvolviment
 
 ![](img/tela05.png)
 
+## <a name="htmlcss02"> HTML e CSS: Classes, posicionamento e Flexbox </a>
+
 ## <a name="classescss"> Classes no CSS </a>
 
 Estou enfrentando uma situação onde desejo aplicar uma cor específica à tag strong sem que essa formatação seja estendida a todos os elementos que a utilizam. A solução para esse problema envolve o uso de classes no CSS.
@@ -412,3 +421,13 @@ Além disso, notei que os elementos textuais estavam muito próximos, e no Figma
 Ao testar no navegador, observei que os blocos de texto e a imagem se posicionaram mais ao centro da tela, proporcionando uma disposição mais próxima do design desejado no Figma. Com esses ajustes, o projeto já estava mais alinhado com as expectativas.
 
 ![](img/tela13.png)
+
+## <a name="htmlcss03"> HTML e CSS: Responsividade e Pseudo-classes </a>
+
+## <a name="melhorandoprojeto"> Melhorando o projeto </a>
+
+Durante o curso, recebemos a tarefa de aprimorar um projeto existente, incorporando novas funcionalidades à interface. Uma das principais metas é a implementação de uma nova tela, refinando ainda mais o projeto. Uma das melhorias incluirá a exibição de ícones ao lado dos links, proporcionando uma experiência visual aprimorada.
+
+Um aspecto crucial do projeto será a implementação da navegação entre as telas, utilizando um cabeçalho que permitirá a transição suave de uma tela para outra. Além disso, exploraremos detalhes relacionados ao código, como a capacidade de alterar as cores do projeto inteiro a partir de um único local no código. Essa abordagem eficiente facilitará a personalização e manutenção do visual do projeto.
+
+
