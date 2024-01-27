@@ -41,6 +41,7 @@ Link:
     - [Vamos melhor o projeto](#melhorandoprojeto)
     - [Figma do projeto atualizado](#figmaatualizado)
     - [ Posicionando os links](#posicionandolinks)
+    - [Estilizando os links](#estilizandolinks)
 - [HTML e CSS: trabalhando com responsividade e publicação de projetos](#htmlcss04)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
@@ -463,6 +464,22 @@ Para centralizar os elementos verticalmente e adicionar um espaçamento entre el
 Ao comparar com o design no Figma, notamos que os botões precisavam ter a mesma cor de fundo da página, uma imagem ao lado do texto e tamanhos diferentes. Essas alterações serão implementadas nas próximas etapas do projeto.
 
 ![](img/tela15.png)
+
+## <a name="estilizandolinks"> Estilizando os links </a>
+
+Estamos trabalhando na estilização de um projeto web durante o curso, e a última tarefa envolve ajustes nos links e botões da página. Primeiramente, corrigimos a formatação dos links e decidimos estilizar o subtítulo. Para isso, criamos uma nova classe no arquivo HTML e, em seguida, iniciamos a estilização no arquivo CSS.
+
+Optamos por utilizar a fonte "Krona One" para o subtítulo, conforme especificado no design do projeto no Figma. Ajustamos também o peso e o tamanho da fonte, seguindo as informações obtidas no Figma. Em seguida, passamos para a estilização dos botões, removendo o fundo ciano, alterando a cor do texto e adicionando uma borda sólida.
+
+Comentamos partes do código no CSS para facilitar possíveis ajustes futuros e mantivemos a formatação desejada nos botões. Exploramos a propriedade "border" no CSS, destacando a espessura, o estilo (no caso, sólido) e a cor da borda.
+
+Após esses ajustes, notamos que os botões estavam mais largos do que o design original. Verificamos as dimensões no Figma e ajustamos a largura dos botões no CSS. Também modificamos a borda, tornando-a menos arredondada para corresponder ao design.
+
+Finalmente, discutimos a ausência de ícones nos botões e planejamos adicioná-los em etapas subsequentes do curso.
+
+![](img/tela16.png)
+
+
 
 
 
