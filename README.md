@@ -46,6 +46,8 @@ Link:
     - [Posicionando os ícones](#posicionandoicones)
     - [Hover](#hover)
     - [Desenvolvendo o footer](#desenvolvendofooter)
+    - [Desenvolvendo o cabeçalho](#desenvolvendocabecalho)
+    - [Estilizando o cabeçalho](#estilizandocabecalho)
 - [HTML e CSS: trabalhando com responsividade e publicação de projetos](#htmlcss04)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
@@ -537,7 +539,19 @@ Agora, estou pronta para prosseguir com o desenvolvimento do header.
 
 ![](img/tela20.png)
 
+## <a name="desenvolvendocabecalho"> Desenvolvendo o cabeçalho </a>
 
+Agora que concluímos o desenvolvimento do rodapé, nosso próximo passo é trabalhar no cabeçalho da página. No Figma, identificamos que o cabeçalho possui dois links no topo da tela, "Home" e "Sobre mim". No arquivo HTML, já preparamos a estrutura usando a tag < header > dentro de < body >.
 
+O cabeçalho geralmente inclui um menu de navegação, e para isso, usamos a tag semântica < nav >. Dentro dessa tag, adicionamos âncoras (< a >) para criar os links de navegação, um para "Home" e outro para "Sobre mim". Para estilizar, introduzimos classes: "cabecalho" para < header >, "cabecalho__menu" para < nav >, e "cabecalho__menu__link" para as âncoras.
 
+Ao salvar e visualizar no navegador, notamos que os elementos estão presentes, mas ainda não possuem estilos. Para reproduzir o design do Figma, precisamos aplicar estilos no arquivo style.css.
+
+## <a name="estilizandocabecalho"> Estilizando o cabeçalho </a>
+
+Neste trecho, estou estilizando o cabeçalho de um site usando HTML e CSS. Comecei ajustando as propriedades de fonte, tamanho, peso e cor do texto no arquivo CSS para torná-lo semelhante ao design proposto no Figma. Em seguida, trabalhei no posicionamento do cabeçalho usando o atributo padding para criar espaçamentos adequados.
+
+Depois, utilizei o FlexBox para organizar os links de navegação, definindo um espaçamento entre eles. Também ajustei o espaçamento entre o texto principal e o cabeçalho. No entanto, apesar de toda a estilização, o menu ainda não é funcional, e o próximo desafio é torná-lo clicável para direcionar o usuário para outras páginas do site.
+
+![](img/tela21.png)
 
