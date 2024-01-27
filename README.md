@@ -28,6 +28,7 @@ Link:
 - [Classes no CSS](#classescss)
 - [Box Model](#boxmodel)
 - [Height e box-sizing](#heightboxsizing)
+- [Flexbox](#flexbox)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
 - [Licença](#licença)
@@ -319,7 +320,21 @@ Visualmente, não há mudança perceptível, mas agora a página está protegida
 
  A viewport, em computação gráfica, refere-se à área visível de um plano e é uma unidade de medida crucial no CSS para criar páginas web responsivas. Sua função é ajustar elementos proporcionalmente às diferentes dimensões de dispositivos, como computadores, tablets e celulares. Isso evita a apresentação desproporcional de elementos em páginas não responsivas. Se deseja explorar mais sobre esse tema e outros conceitos do desenvolvimento front-end, o artigo [Guia de Unidades no CSS](https://www.alura.com.br/artigos/guia-de-unidades-no-css?_gl=1*mtpszq*_ga*MTEwMDQ5Njk5LjE3MDUyMzcyODE.*_ga_1EPWSW3PCS*MTcwNjM1NDU3NC4zNy4xLjE3MDYzNTUxNDkuMC4wLjA.*_fplc*eG9DNzdBSzBaNEp4dm5lNndPTTlvTldTTUZIWU52WUF3bTNkVDVpanZ5UTZQZ0Y1S2xrd09UajNESmpSZjVVSzVyZGJUcUh6Y25qT0E3cEUzQjhuWjhKd3pqR0wzYVNVVU1KNVdKZFBoMkUxeXlSVlVXUVoxJTJGdm1wNjYzMnclM0QlM0Q.) é uma leitura recomendada. Ele abrange não apenas a viewport, mas também outras unidades e conceitos essenciais para desenvolvedores front-end.
 
-## <a name=
+## <a name="flexbox"> Flexbox </a>
+
+Ao desenvolver meu projeto, percebi a necessidade de ajustar o posicionamento dos elementos para torná-lo mais esteticamente agradável. Queria ter o texto de um lado e a imagem do outro, mas sem utilizar medidas fixas que poderiam prejudicar a visualização em diferentes dispositivos.
+
+Ao explorar as opções, descobri que o Flexbox seria uma solução eficaz para posicionar os elementos de forma mais dinâmica. Consultei a documentação do Flexbox, seguindo a prática constante de recorrer à documentação ao aprender algo novo.
+
+ - [Mozilla sobre Flexbox](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Flexible_Box_Layout/Conceitos_Basicos_do_Flexbox)
+ - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+Para implementar o Flexbox, adicionei a propriedade display: flex à classe "apresentacao", que representa o elemento "pai" contendo os elementos a serem posicionados. Isso por padrão colocou os elementos na mesma linha.
+
+Em seguida, para centralizar os elementos na página, utilizei a propriedade align-items: center, que alinha os itens verticalmente de acordo com o elemento de maior altura (a imagem, no meu caso). Isso resultou em uma apresentação mais harmoniosa, com o texto e a imagem centralizados em relação um ao outro.
+
+![](img/tela07.png)
+
 
 
 
