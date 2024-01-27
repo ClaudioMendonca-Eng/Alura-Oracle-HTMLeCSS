@@ -450,5 +450,19 @@ A próxima etapa do curso envolverá a implementação dessa nova atualização 
 
 ![](img/tela14.png)
 
+## <a name="posicionandolinks"> Posicionando os links </a>
+
+Estou trabalhando em um projeto durante o curso e precisamos fazer algumas atualizações na página. Inicialmente, discutimos por onde começar: cabeçalho, rodapé ou botões. Decidimos focar nos botões, já que há uma clara diferença entre a etapa anterior e a atual.
+
+Ao examinar o código HTML no arquivo index.html, identificamos uma nova adição à página: um subtítulo antes dos links chamado "Acesse minhas redes:". Para incorporá-lo, adicionamos um < h2 > dentro da < div > que agrupa os botões. Optamos pelo < h2 > em vez do < h1 > para manter a consistência e evitar problemas de pesquisa no Google.
+
+Ao visualizar a página no navegador, percebemos que o texto estava disposto de forma incorreta, à esquerda dos botões. Para corrigir isso, ajustamos o estilo no arquivo style.css. Modificamos o flex-direction para column dentro da classe .apresentacao__links, garantindo que os elementos fossem dispostos na vertical.
+
+Para centralizar os elementos verticalmente e adicionar um espaçamento entre eles, utilizamos as propriedades align-items: center e gap: 32px. O align-items foi inserido na mesma classe .apresentacao__links.
+
+Ao comparar com o design no Figma, notamos que os botões precisavam ter a mesma cor de fundo da página, uma imagem ao lado do texto e tamanhos diferentes. Essas alterações serão implementadas nas próximas etapas do projeto.
+
+![](img/tela15.png)
+
 
 
