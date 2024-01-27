@@ -32,6 +32,7 @@ Link:
 - [Alinhando o conteúdo](#alinhandoconteudo)
 - [Estilizando o texto](#estilizandotexto)
 - [Importando fontes](#importandofontes)
+- [Posicionando os botões](#posicionandobotao)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
 - [Licença](#licença)
@@ -364,15 +365,28 @@ Ao aplicar essas mudanças, consegui alinhar o tamanho dos elementos da seção 
 
 ## <a name="importandofontes"> Importando fontes </a>
 
-Ao revisar meu projeto, percebi que a aparência das fontes no Figma diferia da minha página. Para corrigir isso, decidi importar as fontes do Figma para o projeto. Utilizei o Google Fonts para acessar as fontes desejadas, Krona One para o título e Montserrat para o parágrafo.
+Ao revisar meu projeto, percebi que a aparência das fontes no Figma diferia da minha página. Para corrigir isso, decidi importar as fontes do Figma para o projeto. Utilizei o [Google Fonts](https://fonts.google.com/) para acessar as fontes desejadas, Krona One para o título e Montserrat para o parágrafo.
 
-Ao acessar o Google Fonts, pesquisei e selecionei as fontes desejadas. Em seguida, copiei o código de importação fornecido pelo Google Fonts, que incluía as fontes Krona One e Montserrat.
+Ao acessar o [Google Fonts](https://fonts.google.com/), pesquisei e selecionei as fontes desejadas. Em seguida, copiei o código de importação fornecido pelo [Google Fonts](https://fonts.google.com/), que incluía as fontes Krona One e Montserrat.
 
 No arquivo CSS, substituí o trecho de importação anterior pelo novo código. Em seguida, apliquei as fontes aos elementos HTML desejados. No caso do título, adicionei a propriedade font-family para Krona One, e para o parágrafo, adicionei a propriedade font-family para Montserrat.
 
 Ao salvar e visualizar a página no navegador, confirmei que as fontes estavam agora alinhadas com o design do Figma.
 
 ![](img/tela10.png)
+
+## <a name="posicionandobotao"> Posicionando o botão </a>
+
+No meu projeto, percebi que os botões de Instagram e Github não estavam estilizados. Para resolver isso, decidi agrupá-los dentro de uma < div > no arquivo HTML, chamada de apresentacao__links. Esta div serve apenas para fins visuais e não possui um significado semântico específico.
+
+Em seguida, fui para o arquivo CSS e criei uma classe chamada .apresentacao__links. Dentro dessa classe, utilizei Flexbox para posicionar os botões horizontalmente. Adicionei as propriedades display: flex e justify-content: space-between para obter o espaçamento desejado entre os botões.
+
+Ao salvar o código e visualizar a página no navegador, confirmei que os botões agora estavam separados e alinhados conforme o design proposto no Figma.
+
+![](img/tela11.png)
+
+
+
 
 
 
