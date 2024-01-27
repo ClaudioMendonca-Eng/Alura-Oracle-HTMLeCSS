@@ -27,6 +27,7 @@ Link:
 - [Destacando o texto](#destacandotexto)
 - [Classes no CSS](#classescss)
 - [Box Model](#boxmodel)
+- [Height e box-sizing](#heightboxsizing)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
 - [Licença](#licença)
@@ -303,6 +304,22 @@ Ao inspecionar os elementos na página com as DevTools, percebemos que a margem 
 Ao aplicar essas alterações, notamos que o espaçamento entre o conteúdo e a página desaparece, proporcionando maior controle sobre o layout. Esse é o passo inicial para melhorar a organização do projeto.
 
 ![](img/tela06.png)
+
+## <a name="heightboxsizing"> Height e box-sizing </a>
+
+No código CSS, definimos margin: 0 e padding: 0 para garantir a consistência das funcionalidades. Surge a questão de como assegurar que a página ocupe 100% da tela. Ao examinar o Figma do projeto, notamos dois blocos de conteúdo, lado a lado, em uma única tela. O desafio é garantir que a altura da tela seja totalmente ocupada.
+
+Rafaella apresenta a solução: definir a altura do body como 100vh (viewport height) no arquivo style.css. Ela explica que isso se relaciona com a meta informação viewport no arquivo index.html, que define a altura da tela como 100% do viewport. Após a implementação, ao inspecionar o código, verifica-se que o body agora ocupa 100% da tela.
+
+Guilherme alerta sobre a posição do "T" em height, enquanto Rafaella destaca a necessidade de garantir que elementos não ultrapassem a tela. Introduzem a propriedade box-sizing: border-box para controlar o dimensionamento dos elementos "filhos" dentro do elemento "pai". Essa propriedade é adicionada ao body no CSS, assegurando que nenhum elemento ultrapasse a página.
+
+Visualmente, não há mudança perceptível, mas agora a página está protegida contra elementos que excedem os limites. Rafaella destaca a importância desse padrão para evitar frustrações ao manipular elementos "filhos" dentro do "pai" em projetos futuros.
+
+ - O que é Viewport?
+
+ A viewport, em computação gráfica, refere-se à área visível de um plano e é uma unidade de medida crucial no CSS para criar páginas web responsivas. Sua função é ajustar elementos proporcionalmente às diferentes dimensões de dispositivos, como computadores, tablets e celulares. Isso evita a apresentação desproporcional de elementos em páginas não responsivas. Se deseja explorar mais sobre esse tema e outros conceitos do desenvolvimento front-end, o artigo [Guia de Unidades no CSS](https://www.alura.com.br/artigos/guia-de-unidades-no-css?_gl=1*mtpszq*_ga*MTEwMDQ5Njk5LjE3MDUyMzcyODE.*_ga_1EPWSW3PCS*MTcwNjM1NDU3NC4zNy4xLjE3MDYzNTUxNDkuMC4wLjA.*_fplc*eG9DNzdBSzBaNEp4dm5lNndPTTlvTldTTUZIWU52WUF3bTNkVDVpanZ5UTZQZ0Y1S2xrd09UajNESmpSZjVVSzVyZGJUcUh6Y25qT0E3cEUzQjhuWjhKd3pqR0wzYVNVVU1KNVdKZFBoMkUxeXlSVlVXUVoxJTJGdm1wNjYzMnclM0QlM0Q.) é uma leitura recomendada. Ele abrange não apenas a viewport, mas também outras unidades e conceitos essenciais para desenvolvedores front-end.
+
+## <a name=
 
 
 
