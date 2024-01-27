@@ -43,6 +43,7 @@ Link:
     - [ Posicionando os links](#posicionandolinks)
     - [Estilizando os links](#estilizandolinks)
     - [ Ícones das redes sociais](#iconesredessociais)
+    - [Posicionando os ícones](#posicionandoicones)
 - [HTML e CSS: trabalhando com responsividade e publicação de projetos](#htmlcss04)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
@@ -491,6 +492,16 @@ Depois, inseri as tags < img > para cada ícone nas respectivas seções dos lin
 Ao salvar o código, abri a página no navegador e observei os três botões com os ícones alinhados à esquerda do texto. No entanto, percebi que eles estavam desalinhados verticalmente. O próximo passo será ajustar a estilização para corrigir esse problema.
 
 ![](img/tela17.png)
+
+## <a name="posicionandoicones"> Posicionando os ícones </a>
+
+Estou avançando no curso e agora estou ajustando o alinhamento dos ícones e textos nos botões das redes sociais da minha página web. No arquivo style.css, dentro da classe .apresentacao__links__link{}, utilizei a propriedade display: flex para permitir o uso do Flexbox, uma técnica de layout no CSS.
+
+Em seguida, adicionei justify-content: center para centralizar os elementos horizontalmente dentro do botão. No entanto, percebi que os ícones e textos estavam muito próximos, então consultei o design no Figma e descobri que há um espaçamento de 16 pixels entre eles.
+
+Para resolver isso, adicionei a propriedade gap: 16px, garantindo um espaçamento adequado entre os elementos. Ao salvar o código e verificar a página no navegador, observei que os ícones e textos estão agora centralizados e separados por um espaço adequado dentro dos botões das redes sociais.
+
+![](img/tela18.png)
 
 
 
