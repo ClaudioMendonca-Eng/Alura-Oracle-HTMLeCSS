@@ -128,7 +128,7 @@ O código até agora:
     </body>
 </html>
 ````
-![](tela01.png)
+![](img/tela01.png)
 
 Essas são as primeiras etapas na construção da nossa página. Vamos continuar aprendendo e adicionando mais elementos conforme avançamos no curso! 😊
 
@@ -168,7 +168,7 @@ No nosso caso, somos o segundo tipo de profissional, encarregados de codificar u
 
 Isa utilizou o Figma, uma ferramenta popular para designers, e compartilhou o projeto conosco. Agora, temos acesso a todas as informações necessárias para codificar as páginas neste curso. A tela inicial do projeto no Figma apresenta dois blocos de conteúdo, lado a lado, com detalhes específicos sobre cores, texto, botões e imagens.
 
-![](tela02.png)
+![](img/tela02.png)
 
 Link: [Projeto no Figma](https://www.figma.com/file/lCj0eDZEm5n1M4pPuRHKwN/Portfolio---Curso-1-(Copy)-(Community)?type=design&node-id=0-1&mode=design&t=qDXdzjGz1Q6nysOz-0)
 
@@ -195,7 +195,7 @@ Por fim, inseri uma imagem usando a tag < img >, baixada diretamente do Figma e 
 
 No entanto, apesar de ter estruturado os elementos, ainda falta estilizar a página para que ela se assemelhe ao design original no Figma. Esse será o próximo passo do curso.
 
-![](tela03.png)
+![](img/tela03.png)
 
 ## <a name="comofuncionacss"> Como funciona o CSS </a>
 
@@ -221,7 +221,7 @@ Descobri que precisava linkar o arquivo CSS ao HTML. Fiz isso adicionando a tag 
 
 Após essa correção, consegui visualizar a cor de fundo preta e o texto em branco na página. No entanto, notei que os links de "Instagram" e "Github" ainda estavam em azul e sublinhados. Essa questão será abordada em etapas posteriores do curso.
 
-![](tela04.png)
+![](img/tela04.png)
 
 ## <a name="corescss"> Cores no CSS </a>
 
@@ -245,22 +245,22 @@ Chegou a hora de dar vida ao seu projeto escolhendo uma paleta de cores. Uma boa
  - [Coolors](https://coolors.co/)
 O Coolors possui uma interface clara e intuitiva. Com a barra de espaço, você pode criar várias combinações. Destaque para a opção de travar uma cor específica, permitindo a elaboração de combinações em torno dela.
 
-![](coolors.gif)
+![](img/coolors.gif)
 
  - [Adobe Color](https://color.adobe.com/)
 O Adobe Color oferece uma "Color Wheel" ajustável para obter harmonias variadas. Aplica diversas regras de harmonia de cores, como análogo, monocromático, tríade, complementar, quadrado, composto, entre outros.
 
-![](adobecolor.gif)
+![](img/adobecolor.gif)
 
  - [Color Hunt](https://colorhunt.co/)
 O Color Hunt dispõe de diversas paletas elaboradas. Encontre combinações por palavras-chave, como pastel, vintage, neon, ou crie a sua própria paleta.
 
-![](colorhunt.gif)
+![](img/colorhunt.gif)
 
  - [Color Tool - Material Design](https://material.io/resources/color/)
 O Color Tool é excelente para criar, compartilhar e aplicar paletas de cores na interface do usuário. Também permite medir o nível de acessibilidade de combinações de cores.
 
-![](colortool.gif)
+![](img/colortool.gif)
 
 ## <a name="destacandotexto"> Destacando o texto </a>
 
@@ -272,7 +272,7 @@ No entanto, ao notar que outros trechos poderiam necessitar do mesmo destaque, c
 
 Ao discutir com meu colega de curso, compreendi que, para futuros desenvolvimentos do projeto, precisaremos de uma solução mais flexível para destacar diferentes trechos de texto com cores distintas. Essa consideração será abordada em etapas subsequentes do curso.
 
-![](tela05.png)
+![](img/tela05.png)
 
 ## <a name="classescss"> Classes no CSS </a>
 
@@ -302,7 +302,7 @@ Ao inspecionar os elementos na página com as DevTools, percebemos que a margem 
 
 Ao aplicar essas alterações, notamos que o espaçamento entre o conteúdo e a página desaparece, proporcionando maior controle sobre o layout. Esse é o passo inicial para melhorar a organização do projeto.
 
-![](tela06.png)
+![](img/tela06.png)
 
 
 
