@@ -51,6 +51,7 @@ Link:
     - [Navegando entre páginas](#navegandopaginas)
     - [Desenvolvendo a nova página](#desenvolvendonovapagina)
     - [Conteúdo da página Sobre Mim](#conteudosobremim)
+    - [Variáveis CSS](#variaveiscss)
 - [HTML e CSS: trabalhando com responsividade e publicação de projetos](#htmlcss04)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
@@ -583,3 +584,20 @@ Agora, o cabeçalho, o rodapé e os links já têm os estilos aplicados. No enta
 Nesta etapa do curso, ao desenvolver a página "Sobre mim", foi adicionado o conteúdo principal no elemento < main >. A estrutura da página foi organizada com um < section > contendo um < h1 > (título) e dois < p > (parágrafos), representando o título e os textos da página. Além disso, foi inserida uma imagem à direita da < section >. Para estilizar esses elementos, foram atribuídas classes específicas a cada parte do conteúdo, como apresentacao, apresentacao__conteudo, apresentacao__conteudo__titulo e apresentacao__conteudo__texto. Essas classes serão utilizadas para aplicar estilos CSS de forma mais direcionada. Ao visualizar no navegador, os elementos foram centralizados na tela, com o bloco da esquerda contendo o título e textos, e o bloco da direita apresentando a imagem.
 
 ![](img/tela22.png)
+
+## <a name="variaveiscss"> Variáveis no CSS </a>
+
+No decorrer do curso, fizemos melhorias no projeto, como a navegação entre páginas, acessando o "Sobre mim", e aplicando estilos visuais, como o efeito Hover nos botões. Agora, focamos em otimizar o código CSS em relação às cores utilizadas no projeto.
+
+Identificamos as cores principais (preta, branca e azul-ciano) e percebemos que as repetimos diversas vezes no código. Para facilitar a manutenção e alteração, introduzimos variáveis CSS. No arquivo style.css, definimos essas variáveis utilizando a pseudoclasse :root, criando três variáveis globais: --cor-primaria, --cor-secundaria e --cor-terciaria.
+
+````
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #22D4FD;
+}
+````
+Essas variáveis representam as cores principais do projeto. O uso de variáveis permite alterar as cores facilmente em um único local, proporcionando uma manutenção mais eficiente. Contudo, até agora, apenas declaramos as variáveis no código, sem aplicá-las visualmente.
+
+Nosso próximo passo será substituir as instâncias das cores diretamente pelos seus respectivos nomes de variáveis. Isso simplificará o código e garantirá uma única fonte de verdade para as cores usadas.
