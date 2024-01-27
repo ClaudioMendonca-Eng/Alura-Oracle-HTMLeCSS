@@ -24,6 +24,7 @@ Link:
 - [Como funciona o CSS](#comofuncionacss)
 - [Criando o CSS](#criandocss)
 - [Cores no CSS](#corescss)
+- [Destacando o texto](#destacandotexto)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
 - [Licença](#licença)
@@ -258,4 +259,18 @@ O Color Hunt dispõe de diversas paletas elaboradas. Encontre combinações por 
 O Color Tool é excelente para criar, compartilhar e aplicar paletas de cores na interface do usuário. Também permite medir o nível de acessibilidade de combinações de cores.
 
 ![](colortool.gif)
-```
+
+## <a name="destacandotexto"> Destacando o texto </a>
+
+Ao observar o design da minha página web, decidi destacar um trecho específico, "com um Front-End de qualidade!", com a cor azul. Para isso, adicionei a tag < strong > em index.html e utilizei o CSS para definir essa cor.
+
+No arquivo style.css, apliquei a cor branca ao fundo e ao texto da página. Em seguida, selecionei a tag < strong > e defini a cor azul clara para o trecho destacado. Ao salvar e visualizar a página no navegador, confirmei que a estilização foi aplicada com sucesso.
+
+No entanto, ao notar que outros trechos poderiam necessitar do mesmo destaque, como as tecnologias "React, HTML e CSS" em um parágrafo, testei a aplicação da tag < strong > nesse novo contexto. Constatando que a cor azul clara persistia, percebi que essa abordagem pode ser limitada, já que todas as instâncias dessa tag teriam a mesma cor.
+
+Ao discutir com meu colega de curso, compreendi que, para futuros desenvolvimentos do projeto, precisaremos de uma solução mais flexível para destacar diferentes trechos de texto com cores distintas. Essa consideração será abordada em etapas subsequentes do curso.
+
+![](tela05.png)
+
+
+
