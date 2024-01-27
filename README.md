@@ -26,6 +26,7 @@ Link:
 - [Cores no CSS](#corescss)
 - [Destacando o texto](#destacandotexto)
 - [Classes no CSS](#classescss)
+- [Box Model](#boxmodel)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
 - [Licença](#licença)
@@ -288,4 +289,20 @@ Em seguida, retorno ao arquivo style.css e, em vez de selecionar a tag strong, u
 Aprendo que a nomeação das classes deve ser significativa e fácil de entender, seguindo padrões que podem evoluir com o tempo. Nomeio a classe conforme o contexto, como "titulo-destaque".
 
 Com essa abordagem, o destaque azul é aplicado apenas ao título específico, evitando afetar outros elementos com a tag strong. Entendo que o uso de classes oferece maior flexibilidade na estilização de elementos específicos, proporcionando uma melhor organização e manutenção do código.
+
+## <a name="boxmodel"> Box Model </a>
+
+Estou enfrentando desafios em relação à organização do layout. Ao adicionar cores com hexadecimal, percebo que o posicionamento não está adequado. O título parece estar grudado à lateral esquerda e ocupando uma linha inteira, assim como o parágrafo. Além disso, ao rolar a página, observo que os links e a imagem aparecem na mesma linha.
+
+Essa aparente falta de controle no posicionamento é devido a um estilo padrão que já é aplicado quando desenvolvemos em HTML e CSS. Para resolver isso, utilizamos a modularidade e aplicamos um "reset CSS" para remover estilos padrões e ter controle total sobre o layout.
+
+Existem diferentes tipos de reset para o CSS, desde os mais abrangentes até os mais simples. Optamos por resetar o espaçamento da página ajustando a margem e o padding. Ao explorar o "Box Model" (modelo de caixa) no W3S, compreendemos que cada elemento segue um modelo de caixa com margem, borda, padding e conteúdo.
+
+Ao inspecionar os elementos na página com as DevTools, percebemos que a margem é o espaço externo ao conteúdo visível. Decidimos remover a margem de todos os elementos usando o seletor universal (*), que representa todos os elementos da página, e configuramos margin: 0 e padding: 0 no arquivo style.css.
+
+Ao aplicar essas alterações, notamos que o espaçamento entre o conteúdo e a página desaparece, proporcionando maior controle sobre o layout. Esse é o passo inicial para melhorar a organização do projeto.
+
+![](tela06.png)
+
+
 
