@@ -44,6 +44,7 @@ Link:
     - [Estilizando os links](#estilizandolinks)
     - [ Ícones das redes sociais](#iconesredessociais)
     - [Posicionando os ícones](#posicionandoicones)
+    - [Hover](#hover)
 - [HTML e CSS: trabalhando com responsividade e publicação de projetos](#htmlcss04)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
@@ -503,6 +504,19 @@ Para resolver isso, adicionei a propriedade gap: 16px, garantindo um espaçament
 
 ![](img/tela18.png)
 
+## <a name="hover"> Hover </a>
+
+Estou progredindo no curso e agora estou implementando um efeito de destaque nos botões da minha página de portfólio ao passar o mouse sobre eles, conhecido como Hover.
+
+No Figma, os designers forneceram dois ícones para representar o estado normal do botão e o destaque do Hover, preenchido na cor #272727, um tom mais claro que a cor de fundo original. Vamos aplicar esse efeito à nossa página.
+
+No CSS, utilizo a classe .apresentacao__links__link para estilizar os botões. Adiciono a pseudo-classe :hover, indicando que as configurações dentro dela serão aplicadas quando o mouse estiver sobre o botão.
+
+Dentro de .apresentacao__links__link:hover, defino a propriedade background-color com a cor #272727, conforme especificado no Figma. Essa alteração faz com que a cor do botão mude ao passar o mouse sobre ele.
+
+Ao salvar o código e visualizar a página no navegador, observo que os botões agora respondem ao Hover, mudando de cor quando o cursor está sobre eles. Isso fornece um feedback visual agradável, indicando interação com os botões.
+
+![](img/tela19.png)
 
 
 
