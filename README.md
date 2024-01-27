@@ -29,6 +29,7 @@ Link:
 - [Box Model](#boxmodel)
 - [Height e box-sizing](#heightboxsizing)
 - [Flexbox](#flexbox)
+- [Alinhando o conteúdo](#alinhandoconteudo)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
 - [Licença](#licença)
@@ -334,6 +335,19 @@ Para implementar o Flexbox, adicionei a propriedade display: flex à classe "apr
 Em seguida, para centralizar os elementos na página, utilizei a propriedade align-items: center, que alinha os itens verticalmente de acordo com o elemento de maior altura (a imagem, no meu caso). Isso resultou em uma apresentação mais harmoniosa, com o texto e a imagem centralizados em relação um ao outro.
 
 ![](img/tela07.png)
+
+## <a name="alinhandoconteudo"> Alinhando o conteúdo </a>
+
+Ao explorar o desenvolvimento do meu projeto, observei que, ao utilizar o Flexbox para posicionar os elementos, o título, texto e botões do lado esquerdo pareciam formar um único bloco, enquanto a imagem ficava separada. Ao analisar o design no Figma, percebi que queria criar um espaço entre esses dois blocos.
+
+Para alcançar isso, agrupei os elementos do lado esquerdo (título, texto, botões) em uma tag < section > separada da tag da imagem. Isso criou dois elementos filhos no contêiner principal.
+
+Ao aplicar display: flex ao contêiner principal, os elementos foram dispostos em linha, mas ainda estavam muito próximos. Utilizei justify-content: space-between para criar um espaço entre os dois elementos.
+
+Entretanto, notei que os elementos estavam colados nos cantos da tela. Para melhorar isso, adicionei uma margem ao contêiner principal usando a propriedade margin. Ajustei o valor da margem para 10%, o que resultou em uma aparência mais equilibrada entre os elementos e uma maior semelhança com o design no Figma.
+
+![](img/tela08.png)
+
 
 
 
