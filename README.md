@@ -34,6 +34,7 @@ Link:
 - [Importando fontes](#importandofontes)
 - [Posicionando os botões](#posicionandobotao)
 - [Estilizando os botões](#estilizandobotao)
+- [Recurso Gap](#recursogap)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
 - [Licença](#licença)
@@ -399,3 +400,15 @@ Ao analisar o resultado no navegador, percebi que os botões estavam mais pareci
 No final, observei a melhoria significativa no visual dos botões, deixando o projeto mais próximo do design original no Figma.
 
 ![](img/tela12.png)
+
+## <a name="recursogap"> Recurso Gap </a>
+
+Durante o curso, percebi que alguns detalhes no layout do meu projeto estavam diferentes do design no Figma. O espaçamento entre os elementos não estava alinhado conforme o esperado.
+
+Para ajustar isso, lembrei que havia definido uma margem de 10% para a classe .apresentacao no arquivo style.css. Isso estava impactando na disposição dos elementos. Decidi corrigir isso ajustando a margem para 15%.
+
+Além disso, notei que os elementos textuais estavam muito próximos, e no Figma identifiquei que deveriam ter um espaçamento de 40 pixels. Utilizando o Flexbox, modifiquei a direção dos elementos para column e adicionei um espaçamento entre eles usando a propriedade gap.
+
+Ao testar no navegador, observei que os blocos de texto e a imagem se posicionaram mais ao centro da tela, proporcionando uma disposição mais próxima do design desejado no Figma. Com esses ajustes, o projeto já estava mais alinhado com as expectativas.
+
+![](img/tela13.png)
