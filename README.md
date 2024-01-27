@@ -33,6 +33,7 @@ Link:
 - [Estilizando o texto](#estilizandotexto)
 - [Importando fontes](#importandofontes)
 - [Posicionando os botões](#posicionandobotao)
+- [Estilizando os botões](#estilizandobotao)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
 - [Licença](#licença)
@@ -385,11 +386,16 @@ Ao salvar o código e visualizar a página no navegador, confirmei que os botõe
 
 ![](img/tela11.png)
 
+## <a name="estilizandobotao"> Estilizando o botão </a>
 
+Na aula de estilização de botões, percebi que precisava melhorar a aparência dos botões "Instagram" e "Github". No Figma, observei que ambos têm características semelhantes, como formato de retângulo com bordas arredondadas, fundo azul e a mesma fonte sem serifa.
 
+Decidi criar uma classe chamada "apresentacao__links__link" para aplicar o estilo comum aos dois botões. No arquivo HTML, adicionei essa classe às tags âncora correspondentes aos botões.
 
+Em seguida, fui para o arquivo CSS e estilizei os botões. Defini o background-color com a cor azul obtida do Figma, ajustei a largura, centralizei o texto, arredondei as bordas com border-radius, defini o tamanho da fonte e adicionei um espaçamento entre o conteúdo e as bordas usando padding. Além disso, removi o sublinhado com text-decoration: none, defini a cor do texto e a fonte.
 
+Ao analisar o resultado no navegador, percebi que os botões estavam mais parecidos com o design proposto no Figma. Então, continuei refinando detalhes, como adicionar um peso de fonte específico (600) para corresponder ao Figma, buscando a fonte Montserrat no Google Fonts e ajustando o estilo conforme necessário.
 
+No final, observei a melhoria significativa no visual dos botões, deixando o projeto mais próximo do design original no Figma.
 
-
-
+![](img/tela12.png)
