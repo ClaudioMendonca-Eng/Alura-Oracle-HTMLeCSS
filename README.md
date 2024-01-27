@@ -49,6 +49,7 @@ Link:
     - [Desenvolvendo o cabeçalho](#desenvolvendocabecalho)
     - [Estilizando o cabeçalho](#estilizandocabecalho)
     - [Navegando entre páginas](#navegandopaginas)
+    - [Desenvolvendo a nova página](#desenvolvendonovapagina)
 - [HTML e CSS: trabalhando com responsividade e publicação de projetos](#htmlcss04)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
@@ -565,3 +566,12 @@ Em seguida, no arquivo principal "index.html", atualizei os links de navegação
 Agora, ao clicar nos links "Home" e "Sobre mim" no menu, consigo navegar entre as páginas do meu site.
 
 
+## <a name="desenvolvendonovapagina"> Desenvolvendo a nova página </a>
+
+Estou desenvolvendo a página "Sobre mim" em um projeto web. No início, a página possui apenas um título de nível 1 ("h1") no corpo do HTML. Para garantir consistência, copiei os elementos de cabeçalho e rodapé da página inicial, incluindo as classes "cabecalho" e "rodape", e colei na nova página.
+
+Ao analisar o resultado no navegador, percebi que os estilos não foram aplicados, pois ainda não importei o arquivo CSS. Decidi manter o mesmo arquivo "style.css" utilizado na página inicial para reutilizar estilos comuns.
+
+No arquivo "about.html", adicionei a tag < link > dentro do < head > para importar o arquivo CSS, ajustando o caminho para "./styles/style.css" devido à reorganização de pastas.
+
+Agora, o cabeçalho, o rodapé e os links já têm os estilos aplicados. No entanto, o conteúdo principal (< main >) ainda está vazio. O próximo passo será desenvolver o corpo da página para completar o layout.
