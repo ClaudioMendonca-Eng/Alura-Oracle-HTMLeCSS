@@ -48,6 +48,7 @@ Link:
     - [Desenvolvendo o footer](#desenvolvendofooter)
     - [Desenvolvendo o cabeçalho](#desenvolvendocabecalho)
     - [Estilizando o cabeçalho](#estilizandocabecalho)
+    - [Navegando entre páginas](#navegandopaginas)
 - [HTML e CSS: trabalhando com responsividade e publicação de projetos](#htmlcss04)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
@@ -554,4 +555,13 @@ Neste trecho, estou estilizando o cabeçalho de um site usando HTML e CSS. Comec
 Depois, utilizei o FlexBox para organizar os links de navegação, definindo um espaçamento entre eles. Também ajustei o espaçamento entre o texto principal e o cabeçalho. No entanto, apesar de toda a estilização, o menu ainda não é funcional, e o próximo desafio é torná-lo clicável para direcionar o usuário para outras páginas do site.
 
 ![](img/tela21.png)
+
+## <a name="navegandopaginas"> Navegando entre páginas </a>
+
+Estou criando uma nova página chamada "Sobre mim" para tornar o menu funcional. No VSCode, organizei os arquivos, movendo o arquivo CSS para uma pasta "styles" para melhor estruturação. Para criar a nova página HTML, criei um arquivo chamado "about.html", ajustei o idioma, o título da aba e adicionei um título de nível 1 ("h1") para a página.
+
+Em seguida, no arquivo principal "index.html", atualizei os links de navegação no cabeçalho para incluir o redirecionamento para a nova página. Utilizei a propriedade "href" para apontar para os respectivos arquivos ("index.html" e "about.html"). Além disso, ajustei o estilo dos links no arquivo CSS para remover o sublinhado.
+
+Agora, ao clicar nos links "Home" e "Sobre mim" no menu, consigo navegar entre as páginas do meu site.
+
 
