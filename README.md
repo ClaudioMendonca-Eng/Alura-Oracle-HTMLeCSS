@@ -45,6 +45,7 @@ Link:
     - [ Ícones das redes sociais](#iconesredessociais)
     - [Posicionando os ícones](#posicionandoicones)
     - [Hover](#hover)
+    - [Desenvolvendo o footer](#desenvolvendofooter)
 - [HTML e CSS: trabalhando com responsividade e publicação de projetos](#htmlcss04)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
@@ -517,6 +518,25 @@ Dentro de .apresentacao__links__link:hover, defino a propriedade background-colo
 Ao salvar o código e visualizar a página no navegador, observo que os botões agora respondem ao Hover, mudando de cor quando o cursor está sobre eles. Isso fornece um feedback visual agradável, indicando interação com os botões.
 
 ![](img/tela19.png)
+
+## <a name="desenvolvendofooter"> Desenvolvendo o footer </a>
+
+Agora, estou trabalhando no desenvolvimento do rodapé da página do meu projeto. Inicialmente, copio o texto "Desenvolvido por Alura" do Figma e o adiciono à tag < footer > no arquivo HTML.
+
+Para estilizar o rodapé, crio uma classe chamada "rodape" no arquivo CSS. Defino a cor do texto como preta, o fundo como azul claro (#22D4FD), adiciono um espaçamento interno (padding) de 24px, centralizo o texto, e ajusto a fonte para 'Montserrat' com tamanho 24px e peso 400.
+
+Ao visualizar a página no navegador, percebo que a aparência está de acordo com o design no Figma. No entanto, observo que a faixa azul do rodapé está muito estreita. Para corrigir isso, ajusto o espaçamento entre a borda e o conteúdo usando a propriedade padding. Inicialmente, testo com um valor de 28px, mas, ao perceber que o espaçamento está muito grande, opto por usar padding de 24px.
+
+Para garantir que o conteúdo seja centralizado na faixa azul, alinho o texto ao centro. Também defino a cor da fonte como preta (#000000) e a do fundo como azul claro (#22D4FD).
+
+Além disso, reviso o código e removo a propriedade height: 100vh do body, pois agora há mais elementos na página e essa definição não é mais necessária.
+
+Entendo que o uso do padding é mais adequado para ajustar os espaçamentos entre os elementos, e substituo as margens por paddings, testando valores como 5% e 8% para encontrar o espaçamento ideal entre os elementos da página.
+
+Agora, estou pronta para prosseguir com o desenvolvimento do header.
+
+![](img/tela20.png)
+
 
 
 
