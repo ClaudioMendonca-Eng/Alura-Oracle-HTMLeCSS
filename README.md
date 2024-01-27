@@ -25,6 +25,7 @@ Link:
 - [Criando o CSS](#criandocss)
 - [Cores no CSS](#corescss)
 - [Destacando o texto](#destacandotexto)
+- [Classes no CSS](#classescss)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
 - [Licença](#licença)
@@ -272,5 +273,19 @@ Ao discutir com meu colega de curso, compreendi que, para futuros desenvolviment
 
 ![](tela05.png)
 
+## <a name="classescss"> Classes no CSS </a>
 
+Estou enfrentando uma situação onde desejo aplicar uma cor específica à tag strong sem que essa formatação seja estendida a todos os elementos que a utilizam. A solução para esse problema envolve o uso de classes no CSS.
+
+Ao explorar o arquivo style.css, percebo que estou utilizando as tags body e strong como seletores do CSS, definindo as cores de fundo e de texto. No entanto, essa abordagem afeta todos os elementos com essas tags.
+
+Decido aprender sobre o seletor de classe, uma técnica comum para resolver esse tipo de problema. Realizo uma pesquisa no Google sobre "classes CSS W3S" e encontro informações relevantes no site W3Schools.
+
+Ao entender que um seletor .class no CSS seleciona elementos com atributos de uma classe específica, decido criar uma classe para o trecho de destaque em meu HTML. Adiciono a propriedade class à tag strong no arquivo index.html, nomeando a classe como "titulo-destaque".
+
+Em seguida, retorno ao arquivo style.css e, em vez de selecionar a tag strong, utilizo o seletor de classe .titulo-destaque para definir a cor azul apenas para esse trecho específico.
+
+Aprendo que a nomeação das classes deve ser significativa e fácil de entender, seguindo padrões que podem evoluir com o tempo. Nomeio a classe conforme o contexto, como "titulo-destaque".
+
+Com essa abordagem, o destaque azul é aplicado apenas ao título específico, evitando afetar outros elementos com a tag strong. Entendo que o uso de classes oferece maior flexibilidade na estilização de elementos específicos, proporcionando uma melhor organização e manutenção do código.
 
