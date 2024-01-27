@@ -42,6 +42,7 @@ Link:
     - [Figma do projeto atualizado](#figmaatualizado)
     - [ Posicionando os links](#posicionandolinks)
     - [Estilizando os links](#estilizandolinks)
+    - [ Ícones das redes sociais](#iconesredessociais)
 - [HTML e CSS: trabalhando com responsividade e publicação de projetos](#htmlcss04)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
@@ -478,6 +479,18 @@ Após esses ajustes, notamos que os botões estavam mais largos do que o design 
 Finalmente, discutimos a ausência de ícones nos botões e planejamos adicioná-los em etapas subsequentes do curso.
 
 ![](img/tela16.png)
+
+## <a name="iconesredessociais"> Ícones das redes sociais </a>
+
+Estou trabalhando no curso e agora estou adicionando ícones aos links da minha página web. No código, inicialmente, eu ajustei os links para incluir os ícones do Github, LinkedIn e Twitch, de acordo com o design no Figma. Para isso, criei uma pasta chamada "assets" para armazenar as imagens dos ícones.
+
+Em seguida, realizei o download das imagens dos ícones e as inseri na pasta "assets". No código HTML, atualizei o caminho da imagem principal, "imagem.png", para refletir a nova localização na pasta "assets".
+
+Depois, inseri as tags < img > para cada ícone nas respectivas seções dos links, usando os endereços das imagens baixadas. Então, copiei e colei a estrutura para os links do LinkedIn e Twitch, ajustando os endereços e os textos conforme necessário.
+
+Ao salvar o código, abri a página no navegador e observei os três botões com os ícones alinhados à esquerda do texto. No entanto, percebi que eles estavam desalinhados verticalmente. O próximo passo será ajustar a estilização para corrigir esse problema.
+
+![](img/tela17.png)
 
 
 
