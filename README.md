@@ -50,6 +50,7 @@ Link:
     - [Estilizando o cabeçalho](#estilizandocabecalho)
     - [Navegando entre páginas](#navegandopaginas)
     - [Desenvolvendo a nova página](#desenvolvendonovapagina)
+    - [Conteúdo da página Sobre Mim](#conteudosobremim)
 - [HTML e CSS: trabalhando com responsividade e publicação de projetos](#htmlcss04)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
@@ -575,3 +576,10 @@ Ao analisar o resultado no navegador, percebi que os estilos não foram aplicado
 No arquivo "about.html", adicionei a tag < link > dentro do < head > para importar o arquivo CSS, ajustando o caminho para "./styles/style.css" devido à reorganização de pastas.
 
 Agora, o cabeçalho, o rodapé e os links já têm os estilos aplicados. No entanto, o conteúdo principal (< main >) ainda está vazio. O próximo passo será desenvolver o corpo da página para completar o layout.
+
+
+## <a name="conteudosobremim"> Conteúdo da página "Sobre mim" </a>
+
+Nesta etapa do curso, ao desenvolver a página "Sobre mim", foi adicionado o conteúdo principal no elemento < main >. A estrutura da página foi organizada com um < section > contendo um < h1 > (título) e dois < p > (parágrafos), representando o título e os textos da página. Além disso, foi inserida uma imagem à direita da < section >. Para estilizar esses elementos, foram atribuídas classes específicas a cada parte do conteúdo, como apresentacao, apresentacao__conteudo, apresentacao__conteudo__titulo e apresentacao__conteudo__texto. Essas classes serão utilizadas para aplicar estilos CSS de forma mais direcionada. Ao visualizar no navegador, os elementos foram centralizados na tela, com o bloco da esquerda contendo o título e textos, e o bloco da direita apresentando a imagem.
+
+![](img/tela22.png)
