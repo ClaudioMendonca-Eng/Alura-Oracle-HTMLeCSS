@@ -59,6 +59,7 @@ Link:
     - [Descubra a super unidade de medida](#descubrasuperunidademedida)
     - [Figma Mobile](#figmamobile)
     - [Media Queries](#mediaqueries)
+    - [Cabeçalho responsivo](#cabecalhoresponsivo)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
 - [Licença](#licença)
@@ -702,3 +703,15 @@ Para implementar essa mudança condicional, exploramos as Media Queries no CSS. 
 Ajustamos a disposição dos elementos utilizando flex-direction: column-reverse para inverter a ordem da imagem e do texto quando a tela fosse menor que 1200px. Embora ainda houvesse ajustes a serem feitos para replicar precisamente o design do Figma, já obtivemos uma melhoria na aparência responsiva da página.
 
 ![](img/tela25.gif)
+
+## <a name="cabecalhoresponsivo"> Cabeçalho responsivo </a>
+
+Agora consegui fazer algumas modificações no estilo da minha página, especialmente quando a tela é reduzida, adaptando-a para dispositivos móveis. Durante a inspeção da largura da tela, percebi que ao atingir 1200px, o design muda para um formato diferente, e decidi melhorá-lo com base no layout do Figma que temos como referência.
+
+Observando o cabeçalho, notei que os textos "Home" e "Sobre mim" não estavam centralizados no design mobile. Para corrigir isso, ajustei o espaçamento no CSS, aumentando o padding para 10% no topo. Em seguida, utilizei o flexbox para centralizar os elementos no cabeçalho, aplicando a propriedade justify-content: center à classe .cabecalho__menu.
+
+Ao analisar as opções de justify-content, escolhi "center" para garantir a centralização vertical dos elementos. Lembrando que, como já utilizamos display: flex anteriormente, não foi necessário reescrever essa propriedade no .cabecalho__menu, pois ela foi herdada do restante do documento.
+
+Com essas modificações, a página agora apresenta um cabeçalho mais harmonioso e centralizado, proporcionando uma experiência visual mais agradável em dispositivos móveis.
+
+## <a name="
