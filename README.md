@@ -61,6 +61,7 @@ Link:
     - [Media Queries](#mediaqueries)
     - [Cabeçalho responsivo](#cabecalhoresponsivo)
     - [Conteúdo responsivo](#conteudoresponsivo)
+    - [Colocando o projeto no ar](#colocandoprojetoar)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
 - [Licença](#licença)
@@ -727,4 +728,16 @@ A solução foi utilizar a propriedade width: auto para que o conteúdo se ajust
 
 ![](img/tela26.gif)
 
-## <a name="
+## <a name="colocandoprojetoar"> Colocando o projeto no ar </a>
+
+Estou animado porque finalmente consegui adicionar meu projeto ao GitHub, mas agora enfrento o desafio de torná-lo acessível para outras pessoas. Quero que qualquer pessoa, de qualquer lugar, consiga visualizar o que desenvolvi. Para isso, escolhi utilizar a plataforma Vercel, uma ferramenta de hospedagem de aplicações na nuvem.
+
+Os instrutores estão explicando o processo passo a passo. Primeiro, acessaram a página da Vercel e traduziram-na para o português. Em seguida, criamos uma conta na plataforma, utilizando a opção de login com o GitHub.
+
+Após o login, escolhemos importar o repositório do GitHub para a Vercel. A plataforma listou todos os repositórios disponíveis, e selecionamos o projeto "portfolio". Ao continuar, escolhemos o nome do projeto na barra de endereços e clicamos em "Implantar". A Vercel automaticamente pegou nosso código, criou um servidor virtual e implantou o projeto.
+
+Em questão de segundos, recebemos a mensagem "Parabéns! Você acabou de implantar um novo projeto no Vercel". Os instrutores mencionaram a importância de cuidar da estrutura do repositório no GitHub para evitar problemas na Vercel. Nosso projeto agora está acessível através de um endereço específico, e verificamos a funcionalidade do projeto em nossos celulares, observando que o design se adaptou perfeitamente às diferentes telas. Estamos animados por ter conseguido disponibilizar nosso projeto para o mundo.
+
+Link: https://alura-oracle-htm-le-css.vercel.app/
+
+
