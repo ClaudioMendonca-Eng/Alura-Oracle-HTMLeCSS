@@ -58,6 +58,7 @@ Link:
     - [Aplicando o REM](#aplicandorem)
     - [Descubra a super unidade de medida](#descubrasuperunidademedida)
     - [Figma Mobile](#figmamobile)
+    - [Media Queries](#mediaqueries)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
 - [Licença](#licença)
@@ -686,4 +687,18 @@ Nossa estratégia provavelmente envolverá o uso extensivo de CSS, embora eu ain
 
 ![](img/tela24.png)
 
+## <a name="mediaqueries"> Media Queries </a>
 
+Estou enfrentando um desafio interessante no curso, onde precisamos identificar o momento em que nossa aplicação começa a apresentar um comportamento indesejado, com elementos muito próximos entre si. Para resolver isso, iniciamos uma análise visual, utilizando a ferramenta de inspeção do navegador.
+
+Ao diminuir a largura da tela, percebemos que a imagem na página do portfólio estava colada ao texto, causando uma sensação desconfortável de compressão do conteúdo. A solução proposta foi adicionar um espaçamento entre os elementos da seção.
+
+No arquivo CSS, utilizamos a propriedade gap no flexbox para garantir um espaço constante entre a imagem e o texto. Ao ajustar a largura da tela, notamos que o espaço entre os elementos se mantinha consistente.
+
+Ao continuar a diminuir a largura da tela, identificamos um ponto em que o design começava a se deteriorar, em torno de 1300px. Decidimos que, abaixo desse valor, a imagem e o texto deveriam permanecer na mesma coluna, seguindo o design mobile do Figma.
+
+Para implementar essa mudança condicional, exploramos as Media Queries no CSS. Consultamos a documentação para entender a sintaxe e a lógica por trás do uso de @media. Definimos que, se a largura da tela fosse menor que 1200px, aplicaríamos um conjunto diferente de estilos.
+
+Ajustamos a disposição dos elementos utilizando flex-direction: column-reverse para inverter a ordem da imagem e do texto quando a tela fosse menor que 1200px. Embora ainda houvesse ajustes a serem feitos para replicar precisamente o design do Figma, já obtivemos uma melhoria na aparência responsiva da página.
+
+![](img/tela25.gif)
