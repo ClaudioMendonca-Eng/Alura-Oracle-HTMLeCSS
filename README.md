@@ -60,6 +60,7 @@ Link:
     - [Figma Mobile](#figmamobile)
     - [Media Queries](#mediaqueries)
     - [Cabeçalho responsivo](#cabecalhoresponsivo)
+    - [Conteúdo responsivo](#conteudoresponsivo)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
 - [Licença](#licença)
@@ -713,5 +714,17 @@ Observando o cabeçalho, notei que os textos "Home" e "Sobre mim" não estavam c
 Ao analisar as opções de justify-content, escolhi "center" para garantir a centralização vertical dos elementos. Lembrando que, como já utilizamos display: flex anteriormente, não foi necessário reescrever essa propriedade no .cabecalho__menu, pois ela foi herdada do restante do documento.
 
 Com essas modificações, a página agora apresenta um cabeçalho mais harmonioso e centralizado, proporcionando uma experiência visual mais agradável em dispositivos móveis.
+
+## <a name="conteudoresponsivo"> Conteúdo responsivo </a>
+
+Estou aprimorando o design da minha página para torná-la mais adaptável a telas menores. Ao visualizar a página no navegador, notei que o texto parecia espremido no centro da tela. Isso ocorre devido ao espaçamento configurado no CSS para telas maiores, que precisa ser ajustado para dispositivos menores.
+
+No arquivo style.css, a classe .apresentacao, que inclui a parte de imagem e texto no < main > do arquivo index.html, possui um padding inicial de 5% e 15%. Entretanto, para telas menores, precisamos reduzir esse espaçamento. No @media com largura máxima de 1200px, ajustamos o padding para 5%.
+
+Ao realizar esse ajuste, percebemos que o conteúdo ainda estava ocupando muito espaço. Analisamos o padding através do Inspecionador de Elementos no navegador e notamos que a largura de .apresentacao__conteudo estava definida como 50%. Para dispositivos menores, queremos que a largura acompanhe o padding definido anteriormente. No @media de 1200px, alteramos a largura para 0, mas notamos que isso comprimia ainda mais o conteúdo.
+
+A solução foi utilizar a propriedade width: auto para que o conteúdo se ajustasse automaticamente à largura da tela, respeitando o padding de 5%. Essa alteração proporcionou um espaçamento mais adequado e uma melhor adaptação da página a dispositivos menores.
+
+![](img/tela26.gif)
 
 ## <a name="
