@@ -55,6 +55,7 @@ Link:
     - [Aplicando as variáveis](#aplicandovariaveis)
 - [HTML e CSS: trabalhando com responsividade e publicação de projetos](#htmlcss04)
     - [Unidade de Medida REM](#unidademedidarem)
+    - [ Aplicando o REM](#aplicandorem)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
 - [Licença](#licença)
@@ -629,5 +630,18 @@ A necessidade de medidas relativas foi enfatizada, e foram apresentadas diversas
 A explicação sobre a conversão de pixels para rem foi detalhada, usando uma escala baseada no valor padrão de 16 pixels, esclarecendo que 16px é equivalente a 1rem. O exemplo prático envolveu a alteração do tamanho da fonte do título no código para rem e a observação de como essa mudança reflete nas configurações de fonte do navegador.
 
 A conclusão ressaltou a importância de tornar todo o projeto adaptável usando unidades relativas em vez de absolutas, destacando a necessidade de ajustar outros elementos da página para garantir consistência. O texto terminou com a sugestão de enfrentar o próximo desafio: configurar toda a página para usar valores relativos.
+
+## <a name="aplicandorem"> Aplicando rem </a>
+
+Agora que compreendi como codificar usando a unidade de medida rem para acompanhar as configurações do navegador, decidi aplicar essa abordagem aos textos do meu projeto. A ideia é tornar a fonte adaptável, mantendo a consistência visual.
+
+Iniciei abrindo o arquivo styles.css e utilizando o atalho "Ctrl + F" para encontrar todas as ocorrências de "font - size". Encontrei seis resultados e fiz os cálculos para converter os valores de pixels para rem.
+
+Por exemplo, no seletor .cabecalho__menu__link, o valor original de 24px foi convertido para 1.5rem. Repeti esse processo para outros elementos, como .apresentacao__conteudo__texto, .apresentacao__links__subtitulo, .apresentacao__links__link e o rodapé.
+
+Após as alterações, retornei à página do portfólio no navegador para avaliar o impacto. Mantendo o tamanho de fonte padrão como "Médio", observei que as adaptações ocorreram conforme o esperado. Testei também com tamanhos "Muito grande", "Grande", "Pequeno" e "Muito pequeno", confirmando que a fonte ajusta-se conforme as configurações escolhidas.
+
+Essa abordagem proporcionou uma adaptabilidade eficaz aos diferentes tamanhos de fonte, garantindo uma experiência consistente para os usuários.
+
 
 
