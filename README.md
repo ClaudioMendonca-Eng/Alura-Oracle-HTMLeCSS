@@ -748,26 +748,33 @@ Agradeço imensamente por ter tido a oportunidade de participar deste programa, 
 
 ## <a name="certificado"> Certificado </a>
 
-# HTML e CSS:
+### HTML e CSS
 
-    # Ambientes de desenvolvimento, estrutura de arquivos e tags
-    # Classes, posicionamento e Flexbox
-    # Cabeçalho, footer e variáveis CSS
-    # Trabalhando com responsividade e publicação de projetos
+### Ambientes de desenvolvimento, estrutura de arquivos e tags
+### Classes, posicionamento e Flexbox
+### Cabeçalho, footer e variáveis CSS
+### Trabalhando com responsividade e publicação de projetos
 
 Parabéns! Você acabou de avançar mais um passo e mergulhou profundamente em conhecimento com a gente.
 
+## HTML e CSS - Ambientes de desenvolvimento, estrutura de arquivos e tags
 ![](img/certificado01.png)
 
 ![](img/certificado02.png)
+
+## HTML e CSS - Classes, posicionamento e Flexbox
 
 ![](img/certificado03.png)
 
 ![](img/certificado04.png)
 
+## HTML e CSS - Cabeçalho, footer e variáveis CSS
+
 ![](img/certificado05.png)
 
 ![](img/certificado06.png)
+
+## HTML e CSS - Trabalhando com responsividade e publicação de projetos
 
 ![](img/certificado07.png)
 
