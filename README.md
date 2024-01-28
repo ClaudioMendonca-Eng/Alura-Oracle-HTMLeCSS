@@ -9,7 +9,7 @@ Neste emocionante percurso educacional, darei meus primeiros passos com HTML e C
 
 Link: https://alura-oracle-htm-le-css.vercel.app/
 
-![](img/imagemgamer.png)
+![](img/imagemapresentacao.gif)
 
 ## Índice
 
