@@ -54,6 +54,7 @@ Link:
     - [Variáveis CSS](#variaveiscss)
     - [Aplicando as variáveis](#aplicandovariaveis)
 - [HTML e CSS: trabalhando com responsividade e publicação de projetos](#htmlcss04)
+    - [Unidade de Medida REM](#unidademedidarem)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
 - [Licença](#licença)
@@ -610,3 +611,23 @@ Durante o curso, declarei variáveis CSS para otimizar o código em relação à
 Para isso, utilizei a pseudoclasse :root para criar variáveis globais, como --cor-primaria, --cor-secundaria, e --cor-terciaria para as cores principais, além de --cor-hover para a cor do efeito Hover. Introduzi também variáveis para as fontes, como --fonte-primaria e --font-secundaria.
 
 O objetivo é tornar o código mais flexível e fácil de manter, possibilitando mudanças globais com apenas algumas alterações nas variáveis. Testei a funcionalidade com uma nova paleta de cores e observei como as mudanças foram refletidas automaticamente em todo o projeto. Finalmente, removi comentários desnecessários e concluí o projeto.
+
+## <a name="htmlcss04"> HTML e CSS: Posicionamento, listas e navegação </a>
+
+Agora, não estamos limitados ao nosso computador; conseguiremos acessar o projeto de qualquer dispositivo, permitindo compartilhá-lo com amigos e familiares, independentemente de estarem usando desktops, notebooks ou celulares.
+
+Vamos aprender a utilizar diferentes unidades de medidas, criar um repositório e uma conta no GitHub. Além disso, faremos testes no design da página para garantir que a experiência seja fluida em diferentes tamanhos de tela. O foco é garantir a responsividade do projeto, não apenas ajustando tamanhos e posições, mas também considerando a disponibilidade dos elementos na tela.
+
+## <a name="unidadesmedida"> Unidades de medida </a>
+
+Estamos aprofundando nossos estudos em HTML e CSS, focando agora nas unidades de medida. A discussão começou com a necessidade de compreender o uso adequado dessas unidades em diferentes situações, sem mencionar os personagens Guilherme e Rafaela.
+
+A exploração começou com a constatação de que, ao definir valores em pixels, os projetos não se adaptam às configurações individuais dos navegadores. Um exemplo prático foi apresentado usando as configurações de fonte no navegador Chrome, destacando a importância da adaptação visual para diferentes usuários.
+
+A necessidade de medidas relativas foi enfatizada, e foram apresentadas diversas opções, como em, ex, ch, rem, vw, vh, vmin, vmax e %. A decisão foi testar a unidade rem para o tamanho de fonte do elemento H1.
+
+A explicação sobre a conversão de pixels para rem foi detalhada, usando uma escala baseada no valor padrão de 16 pixels, esclarecendo que 16px é equivalente a 1rem. O exemplo prático envolveu a alteração do tamanho da fonte do título no código para rem e a observação de como essa mudança reflete nas configurações de fonte do navegador.
+
+A conclusão ressaltou a importância de tornar todo o projeto adaptável usando unidades relativas em vez de absolutas, destacando a necessidade de ajustar outros elementos da página para garantir consistência. O texto terminou com a sugestão de enfrentar o próximo desafio: configurar toda a página para usar valores relativos.
+
+
