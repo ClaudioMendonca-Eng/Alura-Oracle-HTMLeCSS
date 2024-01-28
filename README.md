@@ -7,7 +7,7 @@ Neste emocionante percurso educacional, darei meus primeiros passos com HTML e C
 
 #oraclenexteducation #alura #HelloONET6 #aluracursos #aluraonline #aluraone #aluraoneoracle #aluraoneoracleeducation #aluraoneoracleeducationt6 #aluraoneoracleeducationt6claudiomendon
 
-Link: 
+Link: https://alura-oracle-htm-le-css.vercel.app/
 
 ![](img/imagemgamer.png)
 
@@ -739,5 +739,44 @@ Após o login, escolhemos importar o repositório do GitHub para a Vercel. A pla
 Em questão de segundos, recebemos a mensagem "Parabéns! Você acabou de implantar um novo projeto no Vercel". Os instrutores mencionaram a importância de cuidar da estrutura do repositório no GitHub para evitar problemas na Vercel. Nosso projeto agora está acessível através de um endereço específico, e verificamos a funcionalidade do projeto em nossos celulares, observando que o design se adaptou perfeitamente às diferentes telas. Estamos animados por ter conseguido disponibilizar nosso projeto para o mundo.
 
 Link: https://alura-oracle-htm-le-css.vercel.app/
+
+## <a name="conclusao"> Conclusão </a>
+
+Ao longo deste estimulante percurso educacional, conquistei uma base sólida em HTML e CSS, fundamentais para a criação de páginas web envolventes e esteticamente atraentes. Aprofundei meu entendimento dessas linguagens e estou empolgado para aplicar as competências recém-adquiridas em projetos práticos.
+
+Agradeço imensamente por ter tido a oportunidade de participar deste programa, e estou determinado a continuar ampliando meu conhecimento e habilidades neste setor. Esta jornada foi fundamental para meu crescimento profissional, e estou ansioso para explorar novas oportunidades e desafios que surgirão no futuro.
+
+## <a name="certificado"> Certificado </a>
+
+## HTML e CSS: 
+    - Ambientes de desenvolvimento, estrutura de arquivos e tags
+    - Classes, posicionamento e Flexbox
+    - Cabeçalho, footer e variáveis CSS
+    - Trabalhando com responsividade e publicação de projetos
+
+Parabéns! Você acabou de avançar mais um passo e mergulhou profundamente em conhecimento com a gente.
+
+![](img/certificado01.png)
+
+![](img/certificado02.png)
+
+![](img/certificado03.png)
+
+![](img/certificado04.png)
+
+![](img/certificado05.png)
+
+![](img/certificado06.png)
+
+![](img/certificado07.png)
+
+![](img/certificado08.png)
+
+
+## <a name="licença"> Licença </a>
+
+<a href="https://www.buymeacoffee.com/claudiomendonca" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+Copyright © 2022 <a href="https://www.claudiomendonca.eng.br" target="_blank">ClaudioMendonca.eng.br</a> . The [MIT License](https://github.com/ClaudioMendonca-Eng/Alura-Oracle-logicadeprog-JavaScript/tree/main?tab=MIT-1-ov-file) (MIT)
 
 
