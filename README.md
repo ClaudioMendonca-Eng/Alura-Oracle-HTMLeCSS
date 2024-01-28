@@ -748,12 +748,11 @@ Agradeço imensamente por ter tido a oportunidade de participar deste programa, 
 
 ## <a name="certificado"> Certificado </a>
 
-### HTML e CSS
-
-### Ambientes de desenvolvimento, estrutura de arquivos e tags
-### Classes, posicionamento e Flexbox
-### Cabeçalho, footer e variáveis CSS
-### Trabalhando com responsividade e publicação de projetos
+- HTML e CSS:
+    - Ambientes de desenvolvimento, estrutura de arquivos e tags
+    - Classes, posicionamento e Flexbox
+    - Cabeçalho, footer e variáveis CSS
+    - Trabalhando com responsividade e publicação de projetos
 
 Parabéns! Você acabou de avançar mais um passo e mergulhou profundamente em conhecimento com a gente.
 
