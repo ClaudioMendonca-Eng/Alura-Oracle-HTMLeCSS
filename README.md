@@ -40,9 +40,9 @@ Link:
 - [HTML e CSS: cabeçalho, footer e variáveis CSS](#htmlcss03)
     - [Vamos melhor o projeto](#melhorandoprojeto)
     - [Figma do projeto atualizado](#figmaatualizado)
-    - [ Posicionando os links](#posicionandolinks)
+    - [Posicionando os links](#posicionandolinks)
     - [Estilizando os links](#estilizandolinks)
-    - [ Ícones das redes sociais](#iconesredessociais)
+    - [Ícones das redes sociais](#iconesredessociais)
     - [Posicionando os ícones](#posicionandoicones)
     - [Hover](#hover)
     - [Desenvolvendo o footer](#desenvolvendofooter)
@@ -55,7 +55,8 @@ Link:
     - [Aplicando as variáveis](#aplicandovariaveis)
 - [HTML e CSS: trabalhando com responsividade e publicação de projetos](#htmlcss04)
     - [Unidade de Medida REM](#unidademedidarem)
-    - [ Aplicando o REM](#aplicandorem)
+    - [Aplicando o REM](#aplicandorem)
+    - [Descubra a super unidade de medida](#descubrasuperunidademedida)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
 - [Licença](#licença)
@@ -643,5 +644,20 @@ Após as alterações, retornei à página do portfólio no navegador para avali
 
 Essa abordagem proporcionou uma adaptabilidade eficaz aos diferentes tamanhos de fonte, garantindo uma experiência consistente para os usuários.
 
+## <a name="descubrasuperunidademedida"> Descubra a super unidade de medida </a>
+
+Estou realizando adaptações no código do meu projeto para garantir uma melhor visualização em diferentes tamanhos de tela. Inicialmente, estávamos utilizando pixels como unidade de medida, mas decidimos mudar para a unidade REM. Isso envolve não apenas textos, mas também imagens, links e outros elementos na página.
+
+Ao testarmos a visualização em telas de tamanhos variados, percebemos que alguns elementos, como imagens e links, não se ajustavam adequadamente. Para solucionar isso, utilizamos a ferramenta de inspeção do navegador, permitindo simular diferentes tamanhos de tela e identificar problemas na disposição dos elementos.
+
+Optamos por unidades relativas, como porcentagem (%), para adaptar o tamanho da imagem em relação ao seu elemento pai. Criamos uma classe para a imagem e ajustamos seu tamanho para 50%, garantindo uma adaptação proporcional.
+
+Em seguida, modificamos a largura do conteúdo principal (section) para 50%, acompanhando a lógica de dividir a tela entre a imagem e o conteúdo. Isso proporcionou uma melhoria na disposição dos textos quando a tela é redimensionada.
+
+Além disso, fizemos ajustes nos links, trocando o nome da classe para "apresentacao__links__navegacao" e ajustando a largura para 50%, garantindo uma adaptação adequada em diferentes tamanhos de tela.
+
+No entanto, observamos que alguns problemas persistem, como a quebra dos textos nos links em tamanhos muito reduzidos de tela. Ainda há trabalho a ser feito para aprimorar a experiência do usuário em diversos dispositivos.
+
+![](img/tela23.gif)
 
 
