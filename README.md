@@ -57,6 +57,7 @@ Link:
     - [Unidade de Medida REM](#unidademedidarem)
     - [Aplicando o REM](#aplicandorem)
     - [Descubra a super unidade de medida](#descubrasuperunidademedida)
+    - [Figma Mobile](#figmamobile)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
 - [Licença](#licença)
@@ -672,5 +673,17 @@ Além disso, fizemos ajustes nos links, trocando o nome da classe para "apresent
 No entanto, observamos que alguns problemas persistem, como a quebra dos textos nos links em tamanhos muito reduzidos de tela. Ainda há trabalho a ser feito para aprimorar a experiência do usuário em diversos dispositivos.
 
 ![](img/tela23.gif)
+
+## <a name="figmamobile"> Figma Mobile </a>
+
+Assim como na etapa anterior, recebemos um design no Figma para uma nova página, mas agora, devido ao crescimento do projeto, precisamos torná-la responsiva. Responsividade significa que a página deve se adaptar a diferentes dispositivos, como desktops, notebooks e celulares.
+
+Ao discutir a adaptação para celulares, percebemos que simplesmente esmagar todos os elementos não resultava em um design eficaz. A ideia é reorganizar os elementos, como imagens e textos, de forma mais adequada para a experiência do usuário em dispositivos móveis. Isso significa que, como desenvolvedor Front-end, minha tarefa é implementar as mudanças propostas pelos designers.
+
+Estamos utilizando o Figma para visualizar o design, especialmente a versão para dispositivos móveis. Neste caso, a página para celular mostra o mesmo conteúdo, mas a disposição dos elementos é diferente. Por exemplo, a imagem pode ser ajustada para melhorar a experiência de navegação no celular.
+
+Nossa estratégia provavelmente envolverá o uso extensivo de CSS, embora eu ainda não tenha o código exato em mente. Antecipo que precisaremos informar ao navegador como os elementos devem se comportar em diferentes tamanhos de tela. A discussão também levanta a dúvida se precisaremos criar um novo HTML ou vários arquivos CSS para implementar essas mudanças. Vamos explorar as possibilidades e descobrir a melhor abordagem para o nosso projeto.
+
+![](img/tela24.png)
 
 
