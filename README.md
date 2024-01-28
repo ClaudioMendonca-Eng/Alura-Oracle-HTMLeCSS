@@ -334,6 +334,13 @@ Existem diferentes tipos de reset para o CSS, desde os mais abrangentes até os 
 
 Ao inspecionar os elementos na página com as DevTools, percebemos que a margem é o espaço externo ao conteúdo visível. Decidimos remover a margem de todos os elementos usando o seletor universal (*), que representa todos os elementos da página, e configuramos margin: 0 e padding: 0 no arquivo style.css.
 
+````
+* {
+    margin: 0;
+    padding: 0;
+}
+````
+
 Ao aplicar essas alterações, notamos que o espaçamento entre o conteúdo e a página desaparece, proporcionando maior controle sobre o layout. Esse é o passo inicial para melhorar a organização do projeto.
 
 ![](img/tela06.png)
@@ -343,6 +350,12 @@ Ao aplicar essas alterações, notamos que o espaçamento entre o conteúdo e a 
 No código CSS, definimos margin: 0 e padding: 0 para garantir a consistência das funcionalidades. Surge a questão de como assegurar que a página ocupe 100% da tela. Ao examinar o Figma do projeto, notamos dois blocos de conteúdo, lado a lado, em uma única tela. O desafio é garantir que a altura da tela seja totalmente ocupada.
 
 Rafaella apresenta a solução: definir a altura do body como 100vh (viewport height) no arquivo style.css. Ela explica que isso se relaciona com a meta informação viewport no arquivo index.html, que define a altura da tela como 100% do viewport. Após a implementação, ao inspecionar o código, verifica-se que o body agora ocupa 100% da tela.
+
+````	
+body {
+    viewport: 100vh;
+}
+````
 
 Guilherme alerta sobre a posição do "T" em height, enquanto Rafaella destaca a necessidade de garantir que elementos não ultrapassem a tela. Introduzem a propriedade box-sizing: border-box para controlar o dimensionamento dos elementos "filhos" dentro do elemento "pai". Essa propriedade é adicionada ao body no CSS, assegurando que nenhum elemento ultrapasse a página.
 
