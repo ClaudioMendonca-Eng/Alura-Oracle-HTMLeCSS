@@ -52,6 +52,7 @@ Link:
     - [Desenvolvendo a nova página](#desenvolvendonovapagina)
     - [Conteúdo da página Sobre Mim](#conteudosobremim)
     - [Variáveis CSS](#variaveiscss)
+    - [Aplicando as variáveis](#aplicandovariaveis)
 - [HTML e CSS: trabalhando com responsividade e publicação de projetos](#htmlcss04)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
@@ -601,3 +602,11 @@ Identificamos as cores principais (preta, branca e azul-ciano) e percebemos que 
 Essas variáveis representam as cores principais do projeto. O uso de variáveis permite alterar as cores facilmente em um único local, proporcionando uma manutenção mais eficiente. Contudo, até agora, apenas declaramos as variáveis no código, sem aplicá-las visualmente.
 
 Nosso próximo passo será substituir as instâncias das cores diretamente pelos seus respectivos nomes de variáveis. Isso simplificará o código e garantirá uma única fonte de verdade para as cores usadas.
+
+## <a name="aplicandovariaveis"> Aplicando variáveis </a>
+
+Durante o curso, declarei variáveis CSS para otimizar o código em relação às cores e fontes utilizadas no projeto. Agora, estou aplicando essas variáveis nas propriedades apropriadas, substituindo os valores hexadecimais diretamente nos seletores.
+
+Para isso, utilizei a pseudoclasse :root para criar variáveis globais, como --cor-primaria, --cor-secundaria, e --cor-terciaria para as cores principais, além de --cor-hover para a cor do efeito Hover. Introduzi também variáveis para as fontes, como --fonte-primaria e --font-secundaria.
+
+O objetivo é tornar o código mais flexível e fácil de manter, possibilitando mudanças globais com apenas algumas alterações nas variáveis. Testei a funcionalidade com uma nova paleta de cores e observei como as mudanças foram refletidas automaticamente em todo o projeto. Finalmente, removi comentários desnecessários e concluí o projeto.
